@@ -1,992 +1,1247 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <!-- required meta -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- #favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.webp" type="image/x-icon">
-        <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon">
-        <!-- #title -->
-        <title>Archinex | Modern Architecture & Interior Design HTML Template</title>
-        <!-- #keywords -->
-        <meta name="keywords" content="architecture, interior, creative, modern, luxury, html, bootstrap, scss">
-        <!-- #description -->
-        <meta name="description" content="Modern Architecture & Interior Design HTML Template">
-        <!-- bootstrap five css -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- font awesome six css -->
-        <link rel="stylesheet" href="assets/fonts/css/all.min.css">
-        <!-- tabler icons css -->
-        <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css">
-        <!-- magnific popup css -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!-- nice select css -->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!-- odometer css -->
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <!-- swiper slider css -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body class="dark-mode">
-        <!--[if lt IE 9]>
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.webp"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon" />
+    <!-- #title -->
+    <title>
+      Archinex | Modern Architecture & Interior Design HTML Template
+    </title>
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="architecture, interior, creative, modern, luxury, html, bootstrap, scss"
+    />
+    <!-- #description -->
+    <meta
+      name="description"
+      content="Modern Architecture & Interior Design HTML Template"
+    />
+    <!-- bootstrap five css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome six css -->
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css" />
+    <!-- tabler icons css -->
+    <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css" />
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- odometer css -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body class="dark-mode">
+    <!--[if lt IE 9]>
       <p class="browserupgrade">
-         You are using an <strong>outdated</strong> browser. Please
-         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-         your experience and security.
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
       </p>
-      <![endif]-->
-        <div class="page-wrapper ">
-            <!-- ==== preloader start ==== -->
-            <div class="preloader">
-                <div class="preloader-inner">
-                    <div class="preloader-logo">
-                        <span>LOADING</span>
-                    </div>
-                    <div class="preloader-bar">
-                        <div class="preloader-progress"></div>
-                    </div>
-                    <div class="preloader-count">0%</div>
-                </div>
-            </div>
-            <!-- ==== / preloader end ==== -->
-            <!-- ==== header start ==== -->
-            <header class="header">
-                <div class="container-lg">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="main-header__menu-box">
-                                <nav class="navbar p-0">
-                                    <div class="navbar-logo">
-                                        <a href="index.html">
-                                            <img src="assets/images/logo-light.svg" alt="Image">
-                                        </a>
-                                    </div>
-                                    <div class="navbar__menu-wrapper">
-                                        <div class="navbar__menu d-none d-xl-block">
-                                            <ul class="navbar__list">
-                                                <li class="navbar__item navbar__item--has-children d-none d-xl-block">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Home</a>
-                                                    <ul class="navbar__sub-menu mega-menu">
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-one.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index.html">Architecture Solution</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-two.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-two.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-two.html">Architecture Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-three.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-three.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-three.html">Architecture Bureau</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-four.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-four.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-four.html">Interior Studio</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children d-block d-xl-none nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Home</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="index.html">Architecture Solution</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-two.html">Architecture Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-three.html">Architecture Bureau</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-four.html">Interior Studio</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item nav-fade">
-                                                    <a href="about-us.html">About</a>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Services</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="our-services.html">Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="service-details.html">Service Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Projects</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="our-projects.html">Portfolio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="project-details.html">Portfolio Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Pages</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="about-us.html">About</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="contact-us.html">Contact Us</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="our-team.html">Our Team</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="coming-soon.html">Coming Soon</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="404.html">Error</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">News</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="news.html">News</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="news-list.html">News List</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="news-details.html">News Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="navbar__options">
-                                            <div class="navbar__mobile-options d-none d-sm-block">
-                                                <a href="contact-us.html" class="btn-primary">
-                                                    <span class="btn-animated-text" data-text="Get In Touch">Get In Touch</span>
-                                                </a>
-                                            </div>
-                                            <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu" title="open offcanvas menu">
-                                                <span class="icon-bar top-bar"></span>
-                                                <span class="icon-bar middle-bar"></span>
-                                                <span class="icon-bar bottom-bar"></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- ==== / header end ==== -->
-            <!-- ==== mobile menu start ==== -->
-            <div class="mobile-menu d-block d-xxl-none" data-lenis-prevent>
-                <nav class="mobile-menu__wrapper">
-                    <div class="mobile-menu__header nav-fade">
-                        <div class="logo">
-                            <a href="index.html" aria-label="home page" title="logo">
-                                <img src="assets/images/logo-light.svg" alt="Image">
-                            </a>
-                        </div>
-                        <button aria-label="close mobile menu" class="close-mobile-menu">
-                            <i class="ti ti-x"></i>
-                        </button>
-                    </div>
-                    <div class="mobile-menu__list"></div>
-                    <div class="mobile-menu__cta  d-block d-md-none nav-fade">
-                        <a href="contact-us.html" class="btn-primary">
-                            <span class="btn-animated-text" data-text="Get In Touch">Get In Touch</span>
-                        </a>
-                    </div>
-                    <div class="mobile-menu__social social nav-fade">
-                        <ul class="social">
-                            <li>
-                                <a
-                                    href="https://www.linkedin.com/"
-                                    target="_blank"
-                                    aria-label="share us on linkedin"
-                                    title="linkedin"
-                                    class="hover-line-bottom-gray"
-                                >Linkedin</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.facebook.com/"
-                                    target="_blank"
-                                    aria-label="share us on facebook"
-                                    title="facebook"
-                                    class="hover-line-bottom-gray"
-                                >Facebook</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.instagram.com/"
-                                    target="_blank"
-                                    aria-label="share us on instagram"
-                                    title="instagram"
-                                    class="hover-line-bottom-gray"
-                                >Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="mobile-menu__backdrop"></div>
-            <!-- ==== / mobile menu end ==== -->
-            <!-- ==== news details banner section start ==== -->
-            <section class="news-details-banner pt-fix pt-140 position-relative z-1 overflow-hidden template-bg">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-md-10 col-lg-9 col-xl-10">
-                            <div class="news-details-banner__content text-center fade-up">
-                                <div class="news-details__banner-meta mb-40">
-                                    <div class="news-details__banner-meta-single">
-                                        <i class="ph ph-folder-open"></i>
-                                        <p class="text-sm">Architecture Design</p>
-                                    </div>
-                                    <div class="news-details__banner-meta-single">
-                                        <i class="ph ph-calendar-blank"></i>
-                                        <p class="text-sm">14 Jun 2026</p>
-                                    </div>
-                                </div>
-                                <h2 class="title-md title-animation fw-5 neutral-top">How to Handle the Architecture in Euros for Best Reality</h2>
-                                <div class="sub-title mt-40">
-                                    <ul>
-                                        <li>
-                                            <a href="index.html">Home</a>
-                                        </li>
-                                        <li class="dot"></li>
-                                        <li>
-                                            <a href="news.html">News</a>
-                                        </li>
-                                        <li class="dot"></li>
-                                        <li>News Details</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="news-details-poster mt-80">
-                    <img src="assets/images/news/poster.webp" alt="Image" class="parallax-image">
-                </div>
-                <div class="house-bg fade-right">
-                    <img src="assets/images/building.webp" alt="Image" class="flip-img">
-                </div>
-            </section>
-            <!-- ==== / news details banner section end ==== -->
-            <!-- ==== news details section start ==== -->
-            <section class="news-details pt-140 pb-140 template-bg scale-wrapper">
-                <div class="container">
-                    <div class="row gutter-40">
-                        <div class="col-12 col-xl-8">
-                            <div class="news-details__content">
-                                <div class="news-details__group">
-                                    <div class="news-details__group-intro mb-20">
-                                        <h3 class="title-lg-sm title-animation fw-5 neutral-top">Sustainable Architecture</h3>
-                                    </div>
-                                    <p class="txt-light">In a world where climate change environmental concerns are becoming more pressing, sustainable architecture has transitioned from a trend to necessity. Architects, engineers, and urban planners are embracing eco-friendly solutions to design buildings that are not only functional and beautiful but also energy-efficient and environmentally responsible.</p>
-                                    <p class="txt-light mt-20">Sustainable architecture focuses on reducing environmental impact, maximizing energy efficiency, and enhancing occupant well-being. The key principles that guide modern sustainable design</p>
-                                </div>
-                                <div class="news-details__group mt-60">
-                                    <div class="news-details__group-intro mb-20">
-                                        <h3 class="title-lg-sm title-animation fw-5 neutral-top">The Principles of Architecture</h3>
-                                    </div>
-                                    <p class="txt-light">Sustainable architecture focuses on reducing environmental impact, maximizing energy efficiency, and enhancing occupant well-being. The key principles that guide modern sustainable design</p>
-                                    <ul class="news-details__group-list mt-20">
-                                        <li class="txt-light">
-                                            <span class="fw-5 template-color">Energy Efficiency -</span>
-                                            Using passive design strategies, solar panels, smart energy systems, sustainable building materials, and advanced insulation technologies to minimize energy consumption.
-                                        </li>
-                                        <li class="txt-light">
-                                            <span class="fw-5 template-color">Eco-Friendly Materials -</span>
-                                            Incorporating recycled, biodegradable, and locally sourced materials to reduce the carbon footprint of construction while promoting circular economy principles and long-term environmental.
-                                        </li>
-                                        <li class="txt-light">
-                                            <span class="fw-5 template-color">Water Conservation -</span>
-                                            Implementing rainwater harvesting, greywater recycling, and water-efficient fixtures to reduce water wastage, lower costs, and conserve resources.
-                                        </li>
-                                        <li class="txt-light">
-                                            <span class="fw-5 template-color">Green Spaces & Biophilic Design -</span>
-                                            Integrating plants, green walls, and open spaces to improve air quality and enhance human well-being, productivity, comfort, and overall environmental.
-                                        </li>
-                                    </ul>
-                                    <div
-                                        class="poster-sm mt-30 hover-image scale-up"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/news/poster-sm.webp" alt="Image" class="flip-img">
-                                    </div>
-                                </div>
-                                <div class="news-details__group mt-60">
-                                    <div class="news-details__group-intro mb-20">
-                                        <h3 class="title-lg-sm title-animation fw-5 neutral-top">The Future of Architecture</h3>
-                                    </div>
-                                    <p class="txt-light">Our project has had a remarkable impacts on both its residents and the surrounding community. The integration of lush green spaces and sustainable designs has improved the air quality in the area, reducing the urban heat island effect and fostering a more comfortable living environment. The presence of biodiversity-enhancing elements, such as native plants and wildlife-friendly features, has created a space that celebrates nature while supporting local ecosystems.</p>
-                                    <div class="news-details__group-thumb mt-30">
-                                        <div
-                                            class="thumb-lg hover-image scale-up"
-                                            data-displacement="assets/images/fluid.webp"
-                                            data-intensity="0.2"
-                                            data-speedin="1"
-                                            data-speedout="1"
-                                        >
-                                            <img src="assets/images/news/thumb-left.webp" alt="Image" class="flip-img">
-                                        </div>
-                                        <div
-                                            class="thumb-sm hover-image scale-up"
-                                            data-displacement="assets/images/fluid.webp"
-                                            data-intensity="0.2"
-                                            data-speedin="1"
-                                            data-speedout="1"
-                                        >
-                                            <img src="assets/images/news/thumb-right.webp" alt="Image" class="flip-img">
-                                        </div>
-                                    </div>
-                                    <div class="news-quote mt-30">
-                                        <div class="thumb">
-                                            <img src="assets/images/news/quote.webp" alt="Image">
-                                        </div>
-                                        <div class="content neutral-top">
-                                            <blockquote class="text-xxl fw-6 maison-neue">
-                                                <q>Success is the result of perfection, hardwork, learning from failure, loyalty, and persistence</q>
-                                            </blockquote>
-                                            <div class="mt-60">
-                                                <p class="fw-5 txt-light">Robert Martinez</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="news-details__group mt-60">
-                                    <div class="news-details__group-intro mb-20">
-                                        <h3 class="title-lg-sm title-animation fw-5 neutral-top">Final Thoughts</h3>
-                                    </div>
-                                    <p class="txt-light">Our project has had a remarkable impacts on both its residents and the surrounding community. The integration of lush green spaces and sustainable designs has improved the air quality in the area, reducing the urban heat island effect and fostering a more comfortable living environment. The presence of biodiversity-enhancing elements, such as native plants and wildlife-friendly features, has created a space that celebrates nature while supporting local ecosystems.</p>
-                                    <p class="txt-light mt-20">Would you like any modifications or additional details?</p>
-                                </div>
-                                <div class="news-details__group-meta mt-60">
-                                    <div class="author-info">
-                                        <p class="news-author text-sm fw-5 text-uppercase template-color">Martin Luthar</p>
-                                        <span class="dot"></span>
-                                        <p class="news-date text-sm fw-5 text-uppercase txt-light">ON MARCH 6, 2026</p>
-                                    </div>
-                                    <div class="tags-wrapper">
-                                        <a href="news.html">Residential</a>
-                                        <a href="news.html">Design</a>
-                                        <a href="news.html">Architecture</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="news-details__review pt-140">
-                                <div class="news-details__review-intro">
-                                    <h4 class="title-lg-sm title-animation fw-5 neutral-top">3 Comments</h4>
-                                </div>
-                                <div class="comment-single-wrapper">
-                                    <div class="comment-single fade-up mt-30">
-                                        <div class="author">
-                                            <img src="assets/images/avatar/one.webp" alt="Image">
-                                        </div>
-                                        <div class="author-review">
-                                            <div class="author-meta">
-                                                <div class="author-info">
-                                                    <p class="text-xxl fw-5 maison-neue mt-0">Oliver Williams</p>
-                                                </div>
-                                                <div class="author-cta">
-                                                    <p class="txt-light">
-                                                        <span class="comment-date">September 13, 2025</span>
-                                                        /
-                                                        <span class="comment-time">10:14 AM</span>
-                                                    </p>
-                                                    <div class="reply-button">
-                                                        <button aria-label="reply">
-                                                            Reply
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="author-content mt-30">
-                                                <p class="txt-light">
-                                                    Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                                                </p>
-                                            </div>
-                                            <div class="reply-comment">
-                                                <form action="#" method="post">
-                                                    <div class="input-single">
-                                                        <textarea placeholder="Join the discussion..." required></textarea>
-                                                    </div>
-                                                    <div class="btn-wrapper mt-20">
-                                                        <button type="submit" class="btn-primary">
-                                                            <span class="btn-animated-text" data-text="Reply">Reply</span>
-                                                        </button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="comment-single comment-single-reply fade-up">
-                                        <div class="author">
-                                            <img src="assets/images/avatar/two.webp" alt="Image">
-                                        </div>
-                                        <div class="author-review">
-                                            <div class="author-meta">
-                                                <div class="author-info">
-                                                    <p class="text-xxl fw-5 maison-neue mt-0">David Parker</p>
-                                                </div>
-                                                <div class="author-cta">
-                                                    <p class="txt-light">
-                                                        <span class="comment-date">September 13, 2025</span>
-                                                        /
-                                                        <span class="comment-time">10:14 AM</span>
-                                                    </p>
-                                                    <div class="reply-button">
-                                                        <button aria-label="reply">
-                                                            Reply
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="author-content mt-30">
-                                                <p class="txt-light">
-                                                    Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non dignissimos ducimus qui blanditiis praesentium.
-                                                </p>
-                                            </div>
-                                            <div class="reply-comment">
-                                                <form action="#" method="post">
-                                                    <div class="input-single">
-                                                        <textarea placeholder="Join the discussion..." required></textarea>
-                                                    </div>
-                                                    <div class="btn-wrapper mt-20">
-                                                        <button type="submit" class="btn-primary">
-                                                            <span class="btn-animated-text" data-text="Reply">Reply</span>
-                                                        </button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="comment-single-wrapper">
-                                    <div class="comment-single fade-up">
-                                        <div class="author">
-                                            <img src="assets/images/avatar/three.webp" alt="Image">
-                                        </div>
-                                        <div class="author-review">
-                                            <div class="author-meta">
-                                                <div class="author-info">
-                                                    <p class="text-xxl fw-5 maison-neue mt-0">Claire Olson</p>
-                                                </div>
-                                                <div class="author-cta">
-                                                    <p class="txt-light">
-                                                        <span class="comment-date">September 13, 2025</span>
-                                                        /
-                                                        <span class="comment-time">10:14 AM</span>
-                                                    </p>
-                                                    <div class="reply-button">
-                                                        <button aria-label="reply">
-                                                            Reply
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="author-content mt-30">
-                                                <p class="txt-light">
-                                                    Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                                                </p>
-                                            </div>
-                                            <div class="reply-comment">
-                                                <form action="#" method="post">
-                                                    <div class="input-single">
-                                                        <textarea placeholder="Join the discussion..." required></textarea>
-                                                    </div>
-                                                    <div class="btn-wrapper mt-20">
-                                                        <button type="submit" class="btn-primary">
-                                                            <span class="btn-animated-text" data-text="Reply">Reply</span>
-                                                        </button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="review__form fade-up mt-80">
-                                <div class="review__form-intro mb-40">
-                                    <h4 class="title-lg-sm title-animation fw-5 neutral-top">Leave a Comment</h4>
-                                    <p class="mt-8 txt-light">Your email address will not be published. Required fields are marked*</p>
-                                </div>
-                                <form action="#" method="post">
-                                    <div class="input-group">
-                                        <div class="input-single">
-                                            <input
-                                                type="text"
-                                                name="review-name"
-                                                id="reviewName"
-                                                placeholder="Your Name"
-                                                required
-                                            >
-                                        </div>
-                                        <div class="input-single">
-                                            <input
-                                                type="email"
-                                                name="review-email"
-                                                id="reviewEmail"
-                                                placeholder="Email Address"
-                                                required
-                                            >
-                                        </div>
-                                    </div>
-                                    <div class="input-single mt-30">
-                                        <textarea
-                                            name="review-message"
-                                            id="ReviewMessage"
-                                            placeholder="Write Your Comment"
-                                            required
-                                        ></textarea>
-                                    </div>
-                                    <div class="check-group mt-20">
-                                        <input type="checkbox" name="remember_info" id="rememberInfo">
-                                        <label for="rememberInfo" class="txt-light">Save my name, email address in this browser for the next time I comment.</label>
-                                    </div>
-                                    <div class="mt-40">
-                                        <button
-                                            type="submit"
-                                            class="btn-tertiary"
-                                            title="submit comment"
-                                            aria-label="submit comment"
-                                        >
-                                            <span class="btn-animated-text" data-text="Submit Now">Submit Now</span>
-                                        </button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-12 col-xl-4">
-                            <div class="news-details__sidebar">
-                                <div class="sidebar__widget fade-up">
-                                    <div class="sidebar__widget-header">
-                                        <h5 class="fw-6 title-xxs title-animation neutral-top">Enter Keyword</h5>
-                                    </div>
-                                    <div class="sidebar__widget-search">
-                                        <form action="#" method="post" autocomplete="off">
-                                            <div class="search-wrap">
-                                                <input
-                                                    type="search"
-                                                    name="search-field-post"
-                                                    id="searchFieldPost"
-                                                    placeholder="Enter Keyword"
-                                                    required
-                                                >
-                                                <button type="submit" aria-label="search post" title="search post">
-                                                    <i class="ph ph-magnifying-glass"></i>
-                                                </button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget fade-up mt-40">
-                                    <div class="sidebar__widget-header">
-                                        <h6 class="fw-6 title-animation neutral-top">Trending Categories</h6>
-                                    </div>
-                                    <div class="sidebar__categories">
-                                        <ul>
-                                            <li>
-                                                <a href="news-details.html">
-                                                    Residential Development
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details.html">
-                                                    Urban Planning
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details.html">
-                                                    Commercial Building
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details.html">
-                                                    Hospitality Plan
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details.html">
-                                                    Construction Projects
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="news-details.html">
-                                                    Multipurpose Ventures
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget fade-up mt-40">
-                                    <div class="sidebar__widget-header">
-                                        <h6 class="fw-6 title-animation neutral-top">Recent Blogs</h6>
-                                    </div>
-                                    <div class="recent-item-wrapper">
-                                        <div class="recent-item-single">
-                                            <div class="recent-thumb">
-                                                <a href="news-details.html">
-                                                    <img src="assets/images/news/ph-one.webp" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="recent-content">
-                                                <p class="txt-light text-sm">
-                                                    13 Jan 2026
-                                                </p>
-                                                <h6 class="fw-6">
-                                                    <a href="news-details.html">Top digital marketing trends for 2025 business.</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="recent-item-single">
-                                            <div class="recent-thumb">
-                                                <a href="news-details.html">
-                                                    <img src="assets/images/news/ph-two.webp" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="recent-content">
-                                                <p class="txt-light text-sm">
-                                                    12 Aug 2026
-                                                </p>
-                                                <h6 class="fw-6">
-                                                    <a href="news-details.html">Planning tips for every entrepreneur should know.</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="recent-item-single">
-                                            <div class="recent-thumb">
-                                                <a href="news-details.html">
-                                                    <img src="assets/images/news/ph-three.webp" alt="Image">
-                                                </a>
-                                            </div>
-                                            <div class="recent-content">
-                                                <p class="txt-light text-sm">
-                                                    24 Apr 2026
-                                                </p>
-                                                <h6 class="fw-6">
-                                                    <a href="news-details.html">How to strategic consulting drives business growth.</a>
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar__widget fade-up mt-40">
-                                    <div class="sidebar__widget-header">
-                                        <h6 class="fw-6 title-animation neutral-top">Popular tags</h6>
-                                    </div>
-                                    <div class="sidebar__tags">
-                                        <a href="news-details.html">SEO marketing</a>
-                                        <a href="news-details.html">Design</a>
-                                        <a href="news-details.html">UI/UX</a>
-                                        <a href="news-details.html">Branding</a>
-                                        <a href="news-details.html">Development</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / news details section end ==== -->
-            <!-- ==== vision section start ==== -->
-            <section class="vision">
-                <div class="container-lg">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="vision__inner fade-up">
-                                <div class="container">
-                                    <div class="row align-items-end gutter-40">
-                                        <div class="col-12 col-lg-8">
-                                            <div class="vision__content">
-                                                <h3 class="neutral-top title-md txt-light-fix">
-                                                    Let's build your
-                                                    <span class="fraunces fw-4 italic">extraordinary</span>
-                                                    vision.
-                                                </h3>
-                                                <p class="text-lg txt-light-fix">Turn your vision into reality with our expertise in architecture and design. Connect with us today and take the first step toward your dream space.</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-lg-4">
-                                            <div class="vision__cta">
-                                                <a href="contact-us.html" class="btn-tertiary">
-                                                    <span class="btn-animated-text" data-text="Let's Get Started">Let's Get Started</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="vision-blur-img">
-                                    <img src="assets/images/vision/blur-bg.webp" alt="Image">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="vision-bg">
-                    <img src="assets/images/vision/vision-bg.webp" alt="Image" class="parallax-image">
-                </div>
-            </section>
-            <!-- ==== / vision section end ==== -->
-            <!-- ==== footer start ==== -->
-            <footer class="footer pt-140">
-                <div class="container-lg">
-                    <div class="row gutter-40">
-                        <div class="col-12 col-xl-5 col-xxl-6">
-                            <div class="footer__newsletter fade-up" data-delay="100">
-                                <p class="text-xl maison-neue template-text fw-5">
-                                    Sign up to Archinex to stay up to date on
-                           news and developments
-                                </p>
-                                <form action="#" method="post">
-                                    <div class="input-single">
-                                        <input
-                                            type="email"
-                                            name="newsletter-email"
-                                            id="newsletterEmail"
-                                            placeholder="Email"
-                                            required
-                                        >
-                                        <button type="submit" aria-label="submit newsletter" title="submit newsletter">
-                                            Send
-                                            <i class="ph ph-paper-plane-right"></i>
-                                        </button>
-                                        <span class="underline"></span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-12 col-xl-7 col-xxl-6">
-                            <div class="row gutter-70">
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__logo lh-0">
-                                            <a href="index.html">
-                                                <img src="assets/images/logo-light.svg" alt="Image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info center-auto">
-                                            <p class="fw-5">Archinex Creative Spaces</p>
-                                            <p class="mt-6">
-                                                <a href="https://share.google/VXsdMDrd6Z5UvhC7E" target="_blank">
-                                                    29 Gilbertson
-                                    Road,
-                                                    <br>
-                                                    Seacliff Park SA 5049
-                                                </a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info left-auto">
-                                            <p class="fw-5">General Enquiry</p>
-                                            <p class="mt-6">
-                                                <a href="mailto:nex@archinex.com.au">nex@archinex.com.au</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info">
-                                            <p class="fw-5">Opening hours:</p>
-                                            <p class="mt-6 txt-light">
-                                                8:30am - 5pm
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info center-auto">
-                                            <p class="fw-5">Phone:</p>
-                                            <p class="mt-6">
-                                                <a href="tel:424-203-1713">(424) 203 1713</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom black-two pt-25 pb-25 mt-140">
-                    <div class="container-lg">
-                        <div class="row align-items-center gutter-20">
-                            <div class="col-12 col-lg-6">
-                                <div class="footer-bottom__left">
-                                    <p class="text-gray mt-0">
-                                        &copy; All Rights Reserved
-                                        <a href="index.html" class="gray-hover">Archinex</a>
-                                        <span id="copyrightYear"></span>
-                                        .
-                                    </p>
-                                    <p class="text-gray mt-0">
-                                        Site by
-                                        <a href="index.html" class="gray-hover">
-                                            Themes
-                                            <sup>®</sup>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="footer-bottom__right">
-                                    <p class="text-gray mt-0">Social Sites:</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a
-                                                href="https://www.linkedin.com/"
-                                                target="_blank"
-                                                aria-label="share us on linkedin"
-                                                title="linkedin"
-                                                class="hover-line-bottom"
-                                            >Linkedin</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://www.facebook.com/"
-                                                target="_blank"
-                                                aria-label="share us on facebook"
-                                                title="facebook"
-                                                class="hover-line-bottom"
-                                            >Facebook</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://www.instagram.com/"
-                                                target="_blank"
-                                                aria-label="share us on instagram"
-                                                title="instagram"
-                                                class="hover-line-bottom"
-                                            >Instagram</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- ==== / footer end ==== -->
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <!-- ==== custom cursor start ==== -->
-            <div class="mouseCursor cursor-outer"></div>
-            <div class="mouseCursor cursor-inner">
-                <span class="drag">
-                    drag
-                </span>
-                <span class="view">
-                    view
-                </span>
-                <span class="play">
-                    play
-                </span>
-            </div>
-            <!-- ==== / custom cursor end ==== -->
-            <!-- ==== scroll to top start ==== -->
-            <button class="progress-wrap" aria-label="scroll indicator" title="back to top">
-                <span></span>
-                <svg
-                    class="progress-circle svg-content"
-                    width="100%"
-                    height="100%"
-                    viewBox="-1 -1 102 102"
-                >
-                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-                </svg>
-            </button>
-            <!-- ==== / scroll to top end ==== -->
+    <![endif]-->
+    <div class="page-wrapper">
+      <!-- ==== preloader start ==== -->
+      <div class="preloader">
+        <div class="preloader-inner">
+          <div class="preloader-logo">
+            <span>LOADING</span>
+          </div>
+          <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+          </div>
+          <div class="preloader-count">0%</div>
         </div>
-        <!-- ==== js dependencies start ==== -->
-        <!-- jquery -->
-        <script src="assets/js/jquery-4.0.0.min.js"></script>
-        <!-- bootstrap five js -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- nice select js -->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!-- magnific popup js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- swiper slider js -->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!-- viewport js -->
-        <script src="assets/js/viewport.jquery.js"></script>
-        <!-- odometer js -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- vanilla tilt js -->
-        <script src="assets/js/vanilla-tilt.min.js"></script>
-        <!-- phospor icons js -->
-        <script src="assets/js/phosphor-icon.js"></script>
-        <!-- image loaded js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <!-- isotope js -->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <!-- scrolltrigger js -->
-        <script src="assets/js/ScrollTrigger.min.js"></script>
-        <!-- splittext js -->
-        <script src="assets/js/SplitText.min.js"></script>
-        <!-- scrollto js -->
-        <script src="assets/js/ScrollToPlugin.min.js"></script>
-        <!-- lenis js -->
-        <script src="assets/js/lenis.min.js"></script>
-        <!-- gsap js -->
-        <script src="assets/js/gsap.min.js"></script>
-        <!-- three js -->
-        <script src="assets/js/three.js"></script>
-        <!-- hover effect js -->
-        <script src="assets/js/hover-effect.umd.js"></script>
-        <!-- ==== / js dependencies end ==== -->
-        <!-- main js -->
-        <script src="assets/js/main.js"></script>
-    </body>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-header__menu-box">
+                <nav class="navbar p-0">
+                  <div class="navbar-logo">
+                    <a href="index.html">
+                      <img src="assets/images/logo-light.svg" alt="Image" />
+                    </a>
+                  </div>
+                  <div class="navbar__menu-wrapper">
+                    <div class="navbar__menu d-none d-xl-block">
+                      <ul class="navbar__list">
+                        <li
+                          class="navbar__item navbar__item--has-children d-none d-xl-block"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu mega-menu">
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-one.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index.html">Architecture Solution</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-two.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-two.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-two.html">Architecture Studio</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-three.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-three.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-three.html">Architecture Bureau</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-four.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-four.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-four.html">Interior Studio</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children d-block d-xl-none nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="index.html">Architecture Solution</a>
+                            </li>
+                            <li>
+                              <a href="index-two.html">Architecture Studio</a>
+                            </li>
+                            <li>
+                              <a href="index-three.html">Architecture Bureau</a>
+                            </li>
+                            <li>
+                              <a href="index-four.html">Interior Studio</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                          <a href="about-us.html">About</a>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Services</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="our-services.html">Services</a>
+                            </li>
+                            <li>
+                              <a href="service-details.html">Service Details</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Projects</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="our-projects.html">Portfolio</a>
+                            </li>
+                            <li>
+                              <a href="project-details.html"
+                                >Portfolio Details</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Pages</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="about-us.html">About</a>
+                            </li>
+                            <li>
+                              <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                              <a href="our-team.html">Our Team</a>
+                            </li>
+                            <li>
+                              <a href="coming-soon.html">Coming Soon</a>
+                            </li>
+                            <li>
+                              <a href="404.html">Error</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >News</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="news.html">News</a>
+                            </li>
+                            <li>
+                              <a href="news-list.html">News List</a>
+                            </li>
+                            <li>
+                              <a href="news-details.html">News Details</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="navbar__options">
+                      <div class="navbar__mobile-options d-none d-sm-block">
+                        <a href="contact-us.html" class="btn-primary">
+                          <span
+                            class="btn-animated-text"
+                            data-text="Get In Touch"
+                            >Get In Touch</span
+                          >
+                        </a>
+                      </div>
+                      <button
+                        class="open-offcanvas-nav d-flex d-xl-none"
+                        aria-label="toggle mobile menu"
+                        title="open offcanvas menu"
+                      >
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                      </button>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== mobile menu start ==== -->
+      <div class="mobile-menu d-block d-xxl-none" data-lenis-prevent>
+        <nav class="mobile-menu__wrapper">
+          <div class="mobile-menu__header nav-fade">
+            <div class="logo">
+              <a href="index.html" aria-label="home page" title="logo">
+                <img src="assets/images/logo-light.svg" alt="Image" />
+              </a>
+            </div>
+            <button aria-label="close mobile menu" class="close-mobile-menu">
+              <i class="ti ti-x"></i>
+            </button>
+          </div>
+          <div class="mobile-menu__list"></div>
+          <div class="mobile-menu__cta d-block d-md-none nav-fade">
+            <a href="contact-us.html" class="btn-primary">
+              <span class="btn-animated-text" data-text="Get In Touch"
+                >Get In Touch</span
+              >
+            </a>
+          </div>
+          <div class="mobile-menu__social social nav-fade">
+            <ul class="social">
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  aria-label="share us on linkedin"
+                  title="linkedin"
+                  class="hover-line-bottom-gray"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  aria-label="share us on facebook"
+                  title="facebook"
+                  class="hover-line-bottom-gray"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  aria-label="share us on instagram"
+                  title="instagram"
+                  class="hover-line-bottom-gray"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile-menu__backdrop"></div>
+      <!-- ==== / mobile menu end ==== -->
+      <!-- ==== news details banner section start ==== -->
+      <section
+        class="news-details-banner pt-fix pt-140 position-relative z-1 overflow-hidden template-bg"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-9 col-xl-10">
+              <div class="news-details-banner__content text-center fade-up">
+                <div class="news-details__banner-meta mb-40">
+                  <div class="news-details__banner-meta-single">
+                    <i class="ph ph-folder-open"></i>
+                    <p class="text-sm">Architecture Design</p>
+                  </div>
+                  <div class="news-details__banner-meta-single">
+                    <i class="ph ph-calendar-blank"></i>
+                    <p class="text-sm">14 Jun 2026</p>
+                  </div>
+                </div>
+                <h2 class="title-md title-animation fw-5 neutral-top">
+                  How to Handle the Architecture in Euros for Best Reality
+                </h2>
+                <div class="sub-title mt-40">
+                  <ul>
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li class="dot"></li>
+                    <li>
+                      <a href="news.html">News</a>
+                    </li>
+                    <li class="dot"></li>
+                    <li>News Details</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news-details-poster mt-80">
+          <img
+            src="assets/images/news/poster.webp"
+            alt="Image"
+            class="parallax-image"
+          />
+        </div>
+        <div class="house-bg fade-right">
+          <img src="assets/images/building.webp" alt="Image" class="flip-img" />
+        </div>
+      </section>
+      <!-- ==== / news details banner section end ==== -->
+      <!-- ==== news details section start ==== -->
+      <section class="news-details pt-140 pb-140 template-bg scale-wrapper">
+        <div class="container">
+          <div class="row gutter-40">
+            <div class="col-12 col-xl-8">
+              <div class="news-details__content">
+                <div class="news-details__group">
+                  <div class="news-details__group-intro mb-20">
+                    <h3 class="title-lg-sm title-animation fw-5 neutral-top">
+                      Sustainable Architecture
+                    </h3>
+                  </div>
+                  <p class="txt-light">
+                    In a world where climate change environmental concerns are
+                    becoming more pressing, sustainable architecture has
+                    transitioned from a trend to necessity. Architects,
+                    engineers, and urban planners are embracing eco-friendly
+                    solutions to design buildings that are not only functional
+                    and beautiful but also energy-efficient and environmentally
+                    responsible.
+                  </p>
+                  <p class="txt-light mt-20">
+                    Sustainable architecture focuses on reducing environmental
+                    impact, maximizing energy efficiency, and enhancing occupant
+                    well-being. The key principles that guide modern sustainable
+                    design
+                  </p>
+                </div>
+                <div class="news-details__group mt-60">
+                  <div class="news-details__group-intro mb-20">
+                    <h3 class="title-lg-sm title-animation fw-5 neutral-top">
+                      The Principles of Architecture
+                    </h3>
+                  </div>
+                  <p class="txt-light">
+                    Sustainable architecture focuses on reducing environmental
+                    impact, maximizing energy efficiency, and enhancing occupant
+                    well-being. The key principles that guide modern sustainable
+                    design
+                  </p>
+                  <ul class="news-details__group-list mt-20">
+                    <li class="txt-light">
+                      <span class="fw-5 template-color"
+                        >Energy Efficiency -</span
+                      >
+                      Using passive design strategies, solar panels, smart
+                      energy systems, sustainable building materials, and
+                      advanced insulation technologies to minimize energy
+                      consumption.
+                    </li>
+                    <li class="txt-light">
+                      <span class="fw-5 template-color"
+                        >Eco-Friendly Materials -</span
+                      >
+                      Incorporating recycled, biodegradable, and locally sourced
+                      materials to reduce the carbon footprint of construction
+                      while promoting circular economy principles and long-term
+                      environmental.
+                    </li>
+                    <li class="txt-light">
+                      <span class="fw-5 template-color"
+                        >Water Conservation -</span
+                      >
+                      Implementing rainwater harvesting, greywater recycling,
+                      and water-efficient fixtures to reduce water wastage,
+                      lower costs, and conserve resources.
+                    </li>
+                    <li class="txt-light">
+                      <span class="fw-5 template-color"
+                        >Green Spaces & Biophilic Design -</span
+                      >
+                      Integrating plants, green walls, and open spaces to
+                      improve air quality and enhance human well-being,
+                      productivity, comfort, and overall environmental.
+                    </li>
+                  </ul>
+                  <div
+                    class="poster-sm mt-30 hover-image scale-up"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/news/poster-sm.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                </div>
+                <div class="news-details__group mt-60">
+                  <div class="news-details__group-intro mb-20">
+                    <h3 class="title-lg-sm title-animation fw-5 neutral-top">
+                      The Future of Architecture
+                    </h3>
+                  </div>
+                  <p class="txt-light">
+                    Our project has had a remarkable impacts on both its
+                    residents and the surrounding community. The integration of
+                    lush green spaces and sustainable designs has improved the
+                    air quality in the area, reducing the urban heat island
+                    effect and fostering a more comfortable living environment.
+                    The presence of biodiversity-enhancing elements, such as
+                    native plants and wildlife-friendly features, has created a
+                    space that celebrates nature while supporting local
+                    ecosystems.
+                  </p>
+                  <div class="news-details__group-thumb mt-30">
+                    <div
+                      class="thumb-lg hover-image scale-up"
+                      data-displacement="assets/images/fluid.webp"
+                      data-intensity="0.2"
+                      data-speedin="1"
+                      data-speedout="1"
+                    >
+                      <img
+                        src="assets/images/news/thumb-left.webp"
+                        alt="Image"
+                        class="flip-img"
+                      />
+                    </div>
+                    <div
+                      class="thumb-sm hover-image scale-up"
+                      data-displacement="assets/images/fluid.webp"
+                      data-intensity="0.2"
+                      data-speedin="1"
+                      data-speedout="1"
+                    >
+                      <img
+                        src="assets/images/news/thumb-right.webp"
+                        alt="Image"
+                        class="flip-img"
+                      />
+                    </div>
+                  </div>
+                  <div class="news-quote mt-30">
+                    <div class="thumb">
+                      <img src="assets/images/news/quote.webp" alt="Image" />
+                    </div>
+                    <div class="content neutral-top">
+                      <blockquote class="text-xxl fw-6 maison-neue">
+                        <q
+                          >Success is the result of perfection, hardwork,
+                          learning from failure, loyalty, and persistence</q
+                        >
+                      </blockquote>
+                      <div class="mt-60">
+                        <p class="fw-5 txt-light">Robert Martinez</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-details__group mt-60">
+                  <div class="news-details__group-intro mb-20">
+                    <h3 class="title-lg-sm title-animation fw-5 neutral-top">
+                      Final Thoughts
+                    </h3>
+                  </div>
+                  <p class="txt-light">
+                    Our project has had a remarkable impacts on both its
+                    residents and the surrounding community. The integration of
+                    lush green spaces and sustainable designs has improved the
+                    air quality in the area, reducing the urban heat island
+                    effect and fostering a more comfortable living environment.
+                    The presence of biodiversity-enhancing elements, such as
+                    native plants and wildlife-friendly features, has created a
+                    space that celebrates nature while supporting local
+                    ecosystems.
+                  </p>
+                  <p class="txt-light mt-20">
+                    Would you like any modifications or additional details?
+                  </p>
+                </div>
+                <div class="news-details__group-meta mt-60">
+                  <div class="author-info">
+                    <p
+                      class="news-author text-sm fw-5 text-uppercase template-color"
+                    >
+                      Martin Luthar
+                    </p>
+                    <span class="dot"></span>
+                    <p class="news-date text-sm fw-5 text-uppercase txt-light">
+                      ON MARCH 6, 2026
+                    </p>
+                  </div>
+                  <div class="tags-wrapper">
+                    <a href="news.html">Residential</a>
+                    <a href="news.html">Design</a>
+                    <a href="news.html">Architecture</a>
+                  </div>
+                </div>
+              </div>
+              <div class="news-details__review pt-140">
+                <div class="news-details__review-intro">
+                  <h4 class="title-lg-sm title-animation fw-5 neutral-top">
+                    3 Comments
+                  </h4>
+                </div>
+                <div class="comment-single-wrapper">
+                  <div class="comment-single fade-up mt-30">
+                    <div class="author">
+                      <img src="assets/images/avatar/one.webp" alt="Image" />
+                    </div>
+                    <div class="author-review">
+                      <div class="author-meta">
+                        <div class="author-info">
+                          <p class="text-xxl fw-5 maison-neue mt-0">
+                            Oliver Williams
+                          </p>
+                        </div>
+                        <div class="author-cta">
+                          <p class="txt-light">
+                            <span class="comment-date">September 13, 2025</span>
+                            /
+                            <span class="comment-time">10:14 AM</span>
+                          </p>
+                          <div class="reply-button">
+                            <button aria-label="reply">Reply</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="author-content mt-30">
+                        <p class="txt-light">
+                          Vero eos et accusamus et iusto odio dignissimos
+                          ducimus qui blanditiis praesentium voluptatum deleniti
+                          atque corrupti quos dolores et quas molestias
+                          excepturi sint occaecati cupiditate non
+                        </p>
+                      </div>
+                      <div class="reply-comment">
+                        <form action="#" method="post">
+                          <div class="input-single">
+                            <textarea
+                              placeholder="Join the discussion..."
+                              required
+                            ></textarea>
+                          </div>
+                          <div class="btn-wrapper mt-20">
+                            <button type="submit" class="btn-primary">
+                              <span class="btn-animated-text" data-text="Reply"
+                                >Reply</span
+                              >
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="comment-single comment-single-reply fade-up">
+                    <div class="author">
+                      <img src="assets/images/avatar/two.webp" alt="Image" />
+                    </div>
+                    <div class="author-review">
+                      <div class="author-meta">
+                        <div class="author-info">
+                          <p class="text-xxl fw-5 maison-neue mt-0">
+                            David Parker
+                          </p>
+                        </div>
+                        <div class="author-cta">
+                          <p class="txt-light">
+                            <span class="comment-date">September 13, 2025</span>
+                            /
+                            <span class="comment-time">10:14 AM</span>
+                          </p>
+                          <div class="reply-button">
+                            <button aria-label="reply">Reply</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="author-content mt-30">
+                        <p class="txt-light">
+                          Vero eos et accusamus et iusto odio dignissimos
+                          ducimus qui blanditiis praesentium voluptatum deleniti
+                          atque corrupti quos dolores et quas molestias
+                          excepturi sint occaecati cupiditate non dignissimos
+                          ducimus qui blanditiis praesentium.
+                        </p>
+                      </div>
+                      <div class="reply-comment">
+                        <form action="#" method="post">
+                          <div class="input-single">
+                            <textarea
+                              placeholder="Join the discussion..."
+                              required
+                            ></textarea>
+                          </div>
+                          <div class="btn-wrapper mt-20">
+                            <button type="submit" class="btn-primary">
+                              <span class="btn-animated-text" data-text="Reply"
+                                >Reply</span
+                              >
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="comment-single-wrapper">
+                  <div class="comment-single fade-up">
+                    <div class="author">
+                      <img src="assets/images/avatar/three.webp" alt="Image" />
+                    </div>
+                    <div class="author-review">
+                      <div class="author-meta">
+                        <div class="author-info">
+                          <p class="text-xxl fw-5 maison-neue mt-0">
+                            Claire Olson
+                          </p>
+                        </div>
+                        <div class="author-cta">
+                          <p class="txt-light">
+                            <span class="comment-date">September 13, 2025</span>
+                            /
+                            <span class="comment-time">10:14 AM</span>
+                          </p>
+                          <div class="reply-button">
+                            <button aria-label="reply">Reply</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="author-content mt-30">
+                        <p class="txt-light">
+                          Vero eos et accusamus et iusto odio dignissimos
+                          ducimus qui blanditiis praesentium voluptatum deleniti
+                          atque corrupti quos dolores et quas molestias
+                          excepturi sint occaecati cupiditate non
+                        </p>
+                      </div>
+                      <div class="reply-comment">
+                        <form action="#" method="post">
+                          <div class="input-single">
+                            <textarea
+                              placeholder="Join the discussion..."
+                              required
+                            ></textarea>
+                          </div>
+                          <div class="btn-wrapper mt-20">
+                            <button type="submit" class="btn-primary">
+                              <span class="btn-animated-text" data-text="Reply"
+                                >Reply</span
+                              >
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="review__form fade-up mt-80">
+                <div class="review__form-intro mb-40">
+                  <h4 class="title-lg-sm title-animation fw-5 neutral-top">
+                    Leave a Comment
+                  </h4>
+                  <p class="mt-8 txt-light">
+                    Your email address will not be published. Required fields
+                    are marked*
+                  </p>
+                </div>
+                <form action="#" method="post">
+                  <div class="input-group">
+                    <div class="input-single">
+                      <input
+                        type="text"
+                        name="review-name"
+                        id="reviewName"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="input-single">
+                      <input
+                        type="email"
+                        name="review-email"
+                        id="reviewEmail"
+                        placeholder="Email Address"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="input-single mt-30">
+                    <textarea
+                      name="review-message"
+                      id="ReviewMessage"
+                      placeholder="Write Your Comment"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="check-group mt-20">
+                    <input
+                      type="checkbox"
+                      name="remember_info"
+                      id="rememberInfo"
+                    />
+                    <label for="rememberInfo" class="txt-light"
+                      >Save my name, email address in this browser for the next
+                      time I comment.</label
+                    >
+                  </div>
+                  <div class="mt-40">
+                    <button
+                      type="submit"
+                      class="btn-tertiary"
+                      title="submit comment"
+                      aria-label="submit comment"
+                    >
+                      <span class="btn-animated-text" data-text="Submit Now"
+                        >Submit Now</span
+                      >
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-xl-4">
+              <div class="news-details__sidebar">
+                <div class="sidebar__widget fade-up">
+                  <div class="sidebar__widget-header">
+                    <h5 class="fw-6 title-xxs title-animation neutral-top">
+                      Enter Keyword
+                    </h5>
+                  </div>
+                  <div class="sidebar__widget-search">
+                    <form action="#" method="post" autocomplete="off">
+                      <div class="search-wrap">
+                        <input
+                          type="search"
+                          name="search-field-post"
+                          id="searchFieldPost"
+                          placeholder="Enter Keyword"
+                          required
+                        />
+                        <button
+                          type="submit"
+                          aria-label="search post"
+                          title="search post"
+                        >
+                          <i class="ph ph-magnifying-glass"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="sidebar__widget fade-up mt-40">
+                  <div class="sidebar__widget-header">
+                    <h6 class="fw-6 title-animation neutral-top">
+                      Trending Categories
+                    </h6>
+                  </div>
+                  <div class="sidebar__categories">
+                    <ul>
+                      <li>
+                        <a href="news-details.html">
+                          Residential Development
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="news-details.html">
+                          Urban Planning
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="news-details.html">
+                          Commercial Building
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="news-details.html">
+                          Hospitality Plan
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="news-details.html">
+                          Construction Projects
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="news-details.html">
+                          Multipurpose Ventures
+                          <i class="ph ph-arrow-right"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="sidebar__widget fade-up mt-40">
+                  <div class="sidebar__widget-header">
+                    <h6 class="fw-6 title-animation neutral-top">
+                      Recent Blogs
+                    </h6>
+                  </div>
+                  <div class="recent-item-wrapper">
+                    <div class="recent-item-single">
+                      <div class="recent-thumb">
+                        <a href="news-details.html">
+                          <img
+                            src="assets/images/news/ph-one.webp"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                      <div class="recent-content">
+                        <p class="txt-light text-sm">13 Jan 2026</p>
+                        <h6 class="fw-6">
+                          <a href="news-details.html"
+                            >Top digital marketing trends for 2025 business.</a
+                          >
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="recent-item-single">
+                      <div class="recent-thumb">
+                        <a href="news-details.html">
+                          <img
+                            src="assets/images/news/ph-two.webp"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                      <div class="recent-content">
+                        <p class="txt-light text-sm">12 Aug 2026</p>
+                        <h6 class="fw-6">
+                          <a href="news-details.html"
+                            >Planning tips for every entrepreneur should
+                            know.</a
+                          >
+                        </h6>
+                      </div>
+                    </div>
+                    <div class="recent-item-single">
+                      <div class="recent-thumb">
+                        <a href="news-details.html">
+                          <img
+                            src="assets/images/news/ph-three.webp"
+                            alt="Image"
+                          />
+                        </a>
+                      </div>
+                      <div class="recent-content">
+                        <p class="txt-light text-sm">24 Apr 2026</p>
+                        <h6 class="fw-6">
+                          <a href="news-details.html"
+                            >How to strategic consulting drives business
+                            growth.</a
+                          >
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sidebar__widget fade-up mt-40">
+                  <div class="sidebar__widget-header">
+                    <h6 class="fw-6 title-animation neutral-top">
+                      Popular tags
+                    </h6>
+                  </div>
+                  <div class="sidebar__tags">
+                    <a href="news-details.html">SEO marketing</a>
+                    <a href="news-details.html">Design</a>
+                    <a href="news-details.html">UI/UX</a>
+                    <a href="news-details.html">Branding</a>
+                    <a href="news-details.html">Development</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / news details section end ==== -->
+      <!-- ==== vision section start ==== -->
+      <section class="vision">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="vision__inner fade-up">
+                <div class="container">
+                  <div class="row align-items-end gutter-40">
+                    <div class="col-12 col-lg-8">
+                      <div class="vision__content">
+                        <h3 class="neutral-top title-md txt-light-fix">
+                          Let's build your
+                          <span class="fraunces fw-4 italic"
+                            >extraordinary</span
+                          >
+                          vision.
+                        </h3>
+                        <p class="text-lg txt-light-fix">
+                          Turn your vision into reality with our expertise in
+                          architecture and design. Connect with us today and
+                          take the first step toward your dream space.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                      <div class="vision__cta">
+                        <a href="contact-us.html" class="btn-tertiary">
+                          <span
+                            class="btn-animated-text"
+                            data-text="Let's Get Started"
+                            >Let's Get Started</span
+                          >
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="vision-blur-img">
+                  <img src="assets/images/vision/blur-bg.webp" alt="Image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vision-bg">
+          <img
+            src="assets/images/vision/vision-bg.webp"
+            alt="Image"
+            class="parallax-image"
+          />
+        </div>
+      </section>
+      <!-- ==== / vision section end ==== -->
+      <!-- ==== footer start ==== -->
+      <footer class="footer pt-140">
+        <div class="container-lg">
+          <div class="row gutter-40">
+            <div class="col-12 col-xl-5 col-xxl-6">
+              <div class="footer__newsletter fade-up" data-delay="100">
+                <p class="text-xl maison-neue template-text fw-5">
+                  Sign up to Archinex to stay up to date on news and
+                  developments
+                </p>
+                <form action="#" method="post">
+                  <div class="input-single">
+                    <input
+                      type="email"
+                      name="newsletter-email"
+                      id="newsletterEmail"
+                      placeholder="Email"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      aria-label="submit newsletter"
+                      title="submit newsletter"
+                    >
+                      Send
+                      <i class="ph ph-paper-plane-right"></i>
+                    </button>
+                    <span class="underline"></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-lg-12 col-xl-7 col-xxl-6">
+              <div class="row gutter-70">
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__logo lh-0">
+                      <a href="index.html">
+                        <img src="assets/images/logo-light.svg" alt="Image" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info center-auto">
+                      <p class="fw-5">Archinex Creative Spaces</p>
+                      <p class="mt-6">
+                        <a
+                          href="https://share.google/VXsdMDrd6Z5UvhC7E"
+                          target="_blank"
+                        >
+                          29 Gilbertson Road,
+                          <br />
+                          Seacliff Park SA 5049
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info left-auto">
+                      <p class="fw-5">General Enquiry</p>
+                      <p class="mt-6">
+                        <a href="mailto:nex@archinex.com.au"
+                          >nex@archinex.com.au</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info">
+                      <p class="fw-5">Opening hours:</p>
+                      <p class="mt-6 txt-light">8:30am - 5pm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info center-auto">
+                      <p class="fw-5">Phone:</p>
+                      <p class="mt-6">
+                        <a href="tel:424-203-1713">(424) 203 1713</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom black-two pt-25 pb-25 mt-140">
+          <div class="container-lg">
+            <div class="row align-items-center gutter-20">
+              <div class="col-12 col-lg-6">
+                <div class="footer-bottom__left">
+                  <p class="text-gray mt-0">
+                    &copy; All Rights Reserved
+                    <a href="index.html" class="gray-hover">Archinex</a>
+                    <span id="copyrightYear"></span>
+                    .
+                  </p>
+                  <p class="text-gray mt-0">
+                    Site by
+                    <a href="index.html" class="gray-hover">
+                      Themes
+                      <sup>®</sup>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="footer-bottom__right">
+                  <p class="text-gray mt-0">Social Sites:</p>
+                  <ul class="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        aria-label="share us on linkedin"
+                        title="linkedin"
+                        class="hover-line-bottom"
+                        >Linkedin</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        aria-label="share us on facebook"
+                        title="facebook"
+                        class="hover-line-bottom"
+                        >Facebook</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        aria-label="share us on instagram"
+                        title="instagram"
+                        class="hover-line-bottom"
+                        >Instagram</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ==== / footer end ==== -->
+      <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <!-- ==== custom cursor start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+        <span class="drag"> drag </span>
+        <span class="view"> view </span>
+        <span class="play"> play </span>
+      </div>
+      <!-- ==== / custom cursor end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button
+        class="progress-wrap"
+        aria-label="scroll indicator"
+        title="back to top"
+      >
+        <span></span>
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+    </div>
+    <!-- ==== js dependencies start ==== -->
+    <!-- jquery -->
+    <script src="assets/js/jquery-4.0.0.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- swiper slider js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- vanilla tilt js -->
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <!-- phospor icons js -->
+    <script src="assets/js/phosphor-icon.js"></script>
+    <!-- image loaded js -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope js -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- scrolltrigger js -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- splittext js -->
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- scrollto js -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- lenis js -->
+    <script src="assets/js/lenis.min.js"></script>
+    <!-- gsap js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- three js -->
+    <script src="assets/js/three.js"></script>
+    <!-- hover effect js -->
+    <script src="assets/js/hover-effect.umd.js"></script>
+    <!-- ==== / js dependencies end ==== -->
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

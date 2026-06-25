@@ -2493,5 +2493,37 @@
 
     initPreloaderAnimations();
 
+    /**
+     * ======================================
+     * 52. template options
+     * ======================================
+     */
+    if (localStorage.getItem("theme") !== "light") {
+      $("body").addClass("dark-mode");
+      $(".theme-toggle i").removeClass("ti-moon").addClass("ti-sun");
+
+      $(".logo-ch").attr("src", "assets/images/logo-light.svg");
+      $(".logo-ch-sm").attr("src", "assets/images/logo-sm-light.svg");
+    }
+
+    $(".theme-toggle").on("click", function () {
+      $("body").toggleClass("dark-mode");
+
+      if ($("body").hasClass("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+
+        $(".logo-ch").attr("src", "assets/images/logo-light.svg");
+        $(".logo-ch-sm").attr("src", "assets/images/logo-sm-light.svg");
+
+        $(this).find("i").removeClass("ti-moon").addClass("ti-sun");
+      } else {
+        localStorage.setItem("theme", "light");
+
+        $(".logo-ch").attr("src", "assets/images/logo.svg");
+        $(".logo-ch-sm").attr("src", "assets/images/logo-sm.svg");
+
+        $(this).find("i").removeClass("ti-sun").addClass("ti-moon");
+      }
+    });
   });
 })(jQuery);

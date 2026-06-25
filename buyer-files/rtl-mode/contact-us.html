@@ -1,750 +1,941 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <!-- required meta -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- #favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.webp" type="image/x-icon">
-        <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon">
-        <!-- #title -->
-        <title>Archinex | Modern Architecture & Interior Design HTML Template</title>
-        <!-- #keywords -->
-        <meta name="keywords" content="architecture, interior, creative, modern, luxury, html, bootstrap, scss">
-        <!-- #description -->
-        <meta name="description" content="Modern Architecture & Interior Design HTML Template">
-        <!-- bootstrap five css -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- font awesome six css -->
-        <link rel="stylesheet" href="assets/fonts/css/all.min.css">
-        <!-- tabler icons css -->
-        <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css">
-        <!-- magnific popup css -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!-- nice select css -->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!-- odometer css -->
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <!-- swiper slider css -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body>
-        <!--[if lt IE 9]>
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.webp"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon" />
+    <!-- #title -->
+    <title>
+      Archinex | Modern Architecture & Interior Design HTML Template
+    </title>
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="architecture, interior, creative, modern, luxury, html, bootstrap, scss"
+    />
+    <!-- #description -->
+    <meta
+      name="description"
+      content="Modern Architecture & Interior Design HTML Template"
+    />
+    <!-- bootstrap five css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome six css -->
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css" />
+    <!-- tabler icons css -->
+    <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css" />
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- odometer css -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!--[if lt IE 9]>
       <p class="browserupgrade">
-         You are using an <strong>outdated</strong> browser. Please
-         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-         your experience and security.
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
       </p>
-      <![endif]-->
-        <div class="page-wrapper rtl">
-            <!-- ==== preloader start ==== -->
-            <div class="preloader">
-                <div class="preloader-inner">
-                    <div class="preloader-logo">
-                        <span>LOADING</span>
-                    </div>
-                    <div class="preloader-bar">
-                        <div class="preloader-progress"></div>
-                    </div>
-                    <div class="preloader-count">0%</div>
-                </div>
-            </div>
-            <!-- ==== / preloader end ==== -->
-            <!-- ==== header start ==== -->
-            <header class="header">
-                <div class="container-lg">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="main-header__menu-box">
-                                <nav class="navbar p-0">
-                                    <div class="navbar-logo">
-                                        <a href="index.html">
-                                            <img src="assets/images/logo.svg" alt="Image" class="logo-ch">
-                                        </a>
-                                    </div>
-                                    <div class="navbar__menu-wrapper">
-                                        <div class="navbar__menu d-none d-xl-block">
-                                            <ul class="navbar__list">
-                                                <li class="navbar__item navbar__item--has-children d-none d-xl-block">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Home</a>
-                                                    <ul class="navbar__sub-menu mega-menu">
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-one.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index.html">Architecture Solution</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-two.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-two.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-two.html">Architecture Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-three.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-three.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-three.html">Architecture Bureau</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-four.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-four.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-four.html">Interior Studio</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children d-block d-xl-none nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Home</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="index.html">Architecture Solution</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-two.html">Architecture Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-three.html">Architecture Bureau</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-four.html">Interior Studio</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item nav-fade">
-                                                    <a href="about-us.html">About</a>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Services</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="our-services.html">Services</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="service-details.html">Service Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Projects</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="our-projects.html">Portfolio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="project-details.html">Portfolio Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Pages</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="about-us.html">About</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="contact-us.html">Contact Us</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="our-team.html">Our Team</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="coming-soon.html">Coming Soon</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="404.html">Error</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">News</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="news.html">News</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="news-list.html">News List</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="news-details.html">News Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="navbar__options">
-                                            <div class="navbar__mobile-options d-none d-sm-block">
-                                                <a href="contact-us.html" class="btn-primary">
-                                                    <span class="btn-animated-text" data-text="Get In Touch">Get In Touch</span>
-                                                </a>
-                                            </div>
-                                            <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu" title="open offcanvas menu">
-                                                <span class="icon-bar top-bar"></span>
-                                                <span class="icon-bar middle-bar"></span>
-                                                <span class="icon-bar bottom-bar"></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- ==== / header end ==== -->
-            <!-- ==== mobile menu start ==== -->
-            <div class="mobile-menu d-block d-xxl-none" data-lenis-prevent>
-                <nav class="mobile-menu__wrapper">
-                    <div class="mobile-menu__header nav-fade">
-                        <div class="logo">
-                            <a href="index.html" aria-label="home page" title="logo">
-                                <img src="assets/images/logo.svg" alt="Image" class="logo-ch">
-                            </a>
-                        </div>
-                        <button aria-label="close mobile menu" class="close-mobile-menu">
-                            <i class="ti ti-x"></i>
-                        </button>
-                    </div>
-                    <div class="mobile-menu__list"></div>
-                    <div class="mobile-menu__cta  d-block d-md-none nav-fade">
-                        <a href="contact-us.html" class="btn-primary">
-                            <span class="btn-animated-text" data-text="Get In Touch">Get In Touch</span>
-                        </a>
-                    </div>
-                    <div class="mobile-menu__social social nav-fade">
-                        <ul class="social">
-                            <li>
-                                <a
-                                    href="https://www.linkedin.com/"
-                                    target="_blank"
-                                    aria-label="share us on linkedin"
-                                    title="linkedin"
-                                    class="hover-line-bottom-gray"
-                                >Linkedin</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.facebook.com/"
-                                    target="_blank"
-                                    aria-label="share us on facebook"
-                                    title="facebook"
-                                    class="hover-line-bottom-gray"
-                                >Facebook</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.instagram.com/"
-                                    target="_blank"
-                                    aria-label="share us on instagram"
-                                    title="instagram"
-                                    class="hover-line-bottom-gray"
-                                >Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="mobile-menu__backdrop"></div>
-            <!-- ==== / mobile menu end ==== -->
-            <!-- ==== contact banner section start ==== -->
-            <section class="contact-banner pt-fix pb-140 template-bg scale-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-6 col-lg-6 col-xl-7 col-xxl-6">
-                            <div class="contact-banner__content-wrapper">
-                                <div class="contact-banner__content">
-                                    <div class="sub-title">
-                                        <ul>
-                                            <li>
-                                                <a href="index.html">Home</a>
-                                            </li>
-                                            <li class="dot"></li>
-                                            <li>Contact Us</li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title-md title-animation fw-6 template-color">Have Any Questions? Simply Reach Us.</h2>
-                                    <div class="contact-banner__content-cta">
-                                        <a href="#customerSupport" class="btn-primary">
-                                            <span class="btn-animated-text" data-text="Talk to Archinex">Talk to Archinex</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="contact-banner__address fade-up">
-                                    <p class="text-xxl template-color fw-5 maison-neue">Contact Us:</p>
-                                    <div class="contact-banner__address-list">
-                                        <p class="txt-light text-lg">Lorem Ipsum is simply is dummy my is text dummy text.</p>
-                                        <ul class="mt-30">
-                                            <li>
-                                                <a href="mailto:info@example.com">
-                                                    <i class="ph ph-envelope-simple"></i>
-                                                    info@example.com
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="https://share.google/VXsdMDrd6Z5UvhC7E" target="_blank">
-                                                    <i class="ph ph-map-pin"></i>
-                                                    6391 Elgin St. Celina, 10299
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="contact-banner__thumb-wrapper">
-                    <div class="contact-banner__thumb">
-                        <div class="contact-banner__thumb-left">
-                            <div
-                                class="contact-banner__thumb-single scale-up hover-image"
-                                data-displacement="assets/images/fluid.webp"
-                                data-intensity="0.2"
-                                data-speedin="1"
-                                data-speedout="1"
-                            >
-                                <img src="assets/images/contact/thumb-sm.webp" alt="Image" class="flip-img">
-                            </div>
-                            <div class="contact-banner__thumb-content mt-20 d-one d-sm-flex fade-up">
-                                <div class="thumb">
-                                    <i class="ph ph-phone-outgoing"></i>
-                                </div>
-                                <div class="content">
-                                    <div class="intro">
-                                        <p class="fw-5">Customer Support:</p>
-                                    </div>
-                                    <div class="content-info">
-                                        <p>
-                                            <a href="tel:123-456-7890">+(123) 456-7890</a>
-                                        </p>
-                                        <p class="mt-12">
-                                            <a href="tel:3491-357-95-00">+3491 357 95 00</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="contact-banner__thumb-right">
-                            <div
-                                class="contact-banner__thumb-single hover-image scale-up"
-                                data-displacement="assets/images/fluid.webp"
-                                data-intensity="0.2"
-                                data-speedin="1"
-                                data-speedout="1"
-                            >
-                                <img src="assets/images/contact/thumb-md.webp" alt="Image" class="flip-img">
-                            </div>
-                            <div
-                                class="contact-banner__thumb-single mt-20 hover-image scale-up"
-                                data-displacement="assets/images/fluid.webp"
-                                data-intensity="0.2"
-                                data-speedin="1"
-                                data-speedout="1"
-                            >
-                                <img src="assets/images/contact/thumb-lg.webp" alt="Image" class="flip-img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / contact banner section end ==== -->
-            <!-- ==== contact form section start ==== -->
-            <section class="contact-form" id="customerSupport">
-                <div class="contact-form__inner pt-140 pb-140">
-                    <div class="container">
-                        <div class="row gutter-40 align-items-end">
-                            <div class="col-12 col-lg-6 col-xxl-5">
-                                <div class="contact-form__content">
-                                    <div class="contact-form__content-intro fade-up">
-                                        <h2 class="title-animation fw-5 title-md txt-light-fix">Let's Get Start With Us.</h2>
-                                        <p class="text-lg txt-light-fix title-animation">Whether you have questions, want to schedule a tour, or need assistance with a listing, our team is ready to assist</p>
-                                    </div>
-                                    <div class="office-location fade-up" data-delay="100">
-                                        <div class="location-map">
-                                            <img src="assets/images/contact/map.webp" alt="Image">
-                                        </div>
-                                        <div class="location-content">
-                                            <p class="text-xxl fw-5 template-color">Our Head Office:</p>
-                                            <p class="mt-16">
-                                                <a href="https://share.google/VXsdMDrd6Z5UvhC7E" target="_blank">123 Main Street, Suite 456, Anytown, USA</a>
-                                            </p>
-                                            <div class="cta mt-16">
-                                                <a href="https://share.google/VXsdMDrd6Z5UvhC7E" target="_blank">
-                                                    <span>View In Map</span>
-                                                    <i class="ph ph-arrow-up-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6 col-xxl-6 offset-xxl-1">
-                                <div class="contact-form__main fade-up" data-delay="200">
-                                    <p class="text-xxl fw-5 text-white neutral-top">Got a Project in Mind?</p>
-                                    <form action="#" method="post" class="mt-30">
-                                        <div class="input-single">
-                                            <input
-                                                type="text"
-                                                name="user-name"
-                                                id="userName"
-                                                placeholder="Your Name"
-                                                required
-                                            >
-                                        </div>
-                                        <div class="input-single">
-                                            <input
-                                                type="email"
-                                                name="user-email"
-                                                id="userEmail"
-                                                placeholder="Enter Your Email"
-                                                required
-                                            >
-                                        </div>
-                                        <div class="input-single">
-                                            <input
-                                                type="text"
-                                                name="user-web"
-                                                id="userWeb"
-                                                placeholder="Website (Optional)"
-                                                required
-                                            >
-                                        </div>
-                                        <div class="input-single">
-                                            <textarea
-                                                name="user-message"
-                                                id="userMessage"
-                                                placeholder="Write Your Message"
-                                                required
-                                            ></textarea>
-                                        </div>
-                                        <div class="mt-20">
-                                            <button
-                                                type="submit"
-                                                class="btn-secondary"
-                                                title="submit message"
-                                                aria-label="submit message"
-                                            >
-                                                <span class="btn-animated-text" data-text="Send Message">Send Message</span>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-form-bg">
-                        <img src="assets/images/contact/contact-bg.webp" alt="Image">
-                    </div>
-                    <hr class="divider">
-                    <!-- ==== partner section start ==== -->
-                    <div class="partner">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="partner__inner">
-                                        <div class=" partner__slider">
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/one.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/two.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/three.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/four.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/five.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/six.webp" alt="Image">
-                                            </div>
-                                        </div>
-                                        <div class=" partner__slider">
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/one.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/two.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/three.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/four.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/five.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/six.webp" alt="Image">
-                                            </div>
-                                        </div>
-                                        <div class=" partner__slider">
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/one.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/two.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/three.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/four.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/five.webp" alt="Image">
-                                            </div>
-                                            <div class="partner__single">
-                                                <img src="assets/images/partners/six.webp" alt="Image">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- ==== / partner section end ==== -->
-                </div>
-            </section>
-            <!-- ==== / contact form section end ==== -->
-            <!-- ==== footer start ==== -->
-            <footer class="footer pt-140">
-                <div class="container-lg">
-                    <div class="row gutter-40">
-                        <div class="col-12 col-xl-5 col-xxl-6">
-                            <div class="footer__newsletter fade-up" data-delay="100">
-                                <p class="text-xl maison-neue template-text fw-5">
-                                    Sign up to Archinex to stay up to date on
-                           news and developments
-                                </p>
-                                <form action="#" method="post">
-                                    <div class="input-single">
-                                        <input
-                                            type="email"
-                                            name="newsletter-email"
-                                            id="newsletterEmail"
-                                            placeholder="Email"
-                                            required
-                                        >
-                                        <button type="submit" aria-label="submit newsletter" title="submit newsletter">
-                                            Send
-                                            <i class="ph ph-paper-plane-right"></i>
-                                        </button>
-                                        <span class="underline"></span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-12 col-xl-7 col-xxl-6">
-                            <div class="row gutter-70">
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__logo lh-0">
-                                            <a href="index.html">
-                                                <img src="assets/images/logo.svg" alt="Image" class="logo-ch">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info center-auto">
-                                            <p class="fw-5">Archinex Creative Spaces</p>
-                                            <p class="mt-6">
-                                                <a href="https://share.google/VXsdMDrd6Z5UvhC7E" target="_blank">
-                                                    29 Gilbertson
-                                    Road,
-                                                    <br>
-                                                    Seacliff Park SA 5049
-                                                </a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info left-auto">
-                                            <p class="fw-5">General Enquiry</p>
-                                            <p class="mt-6">
-                                                <a href="mailto:nex@archinex.com.au">nex@archinex.com.au</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info">
-                                            <p class="fw-5">Opening hours:</p>
-                                            <p class="mt-6 txt-light">
-                                                8:30am - 5pm
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6 col-md-4">
-                                    <div class="footer__item-row-single fade-up" data-delay="100">
-                                        <div class="footer__info center-auto">
-                                            <p class="fw-5">Phone:</p>
-                                            <p class="mt-6">
-                                                <a href="tel:424-203-1713">(424) 203 1713</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom black-two pt-25 pb-25 mt-140">
-                    <div class="container-lg">
-                        <div class="row align-items-center gutter-20">
-                            <div class="col-12 col-lg-6">
-                                <div class="footer-bottom__left">
-                                    <p class="text-gray mt-0">
-                                        &copy; All Rights Reserved
-                                        <a href="index.html" class="gray-hover">Archinex</a>
-                                        <span id="copyrightYear"></span>
-                                        .
-                                    </p>
-                                    <p class="text-gray mt-0">
-                                        Site by
-                                        <a href="index.html" class="gray-hover">
-                                            Themes
-                                            <sup>®</sup>
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="footer-bottom__right">
-                                    <p class="text-gray mt-0">Social Sites:</p>
-                                    <ul class="social">
-                                        <li>
-                                            <a
-                                                href="https://www.linkedin.com/"
-                                                target="_blank"
-                                                aria-label="share us on linkedin"
-                                                title="linkedin"
-                                                class="hover-line-bottom"
-                                            >Linkedin</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://www.facebook.com/"
-                                                target="_blank"
-                                                aria-label="share us on facebook"
-                                                title="facebook"
-                                                class="hover-line-bottom"
-                                            >Facebook</a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                href="https://www.instagram.com/"
-                                                target="_blank"
-                                                aria-label="share us on instagram"
-                                                title="instagram"
-                                                class="hover-line-bottom"
-                                            >Instagram</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- ==== / footer end ==== -->
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <!-- ==== custom cursor start ==== -->
-            <div class="mouseCursor cursor-outer"></div>
-            <div class="mouseCursor cursor-inner">
-                <span class="drag">
-                    drag
-                </span>
-                <span class="view">
-                    view
-                </span>
-                <span class="play">
-                    play
-                </span>
-            </div>
-            <!-- ==== / custom cursor end ==== -->
-            <!-- ==== scroll to top start ==== -->
-            <button class="progress-wrap" aria-label="scroll indicator" title="back to top">
-                <span></span>
-                <svg
-                    class="progress-circle svg-content"
-                    width="100%"
-                    height="100%"
-                    viewBox="-1 -1 102 102"
-                >
-                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-                </svg>
-            </button>
-            <!-- ==== / scroll to top end ==== -->
+    <![endif]-->
+    <div class="page-wrapper rtl">
+      <!-- ==== preloader start ==== -->
+      <div class="preloader">
+        <div class="preloader-inner">
+          <div class="preloader-logo">
+            <span>LOADING</span>
+          </div>
+          <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+          </div>
+          <div class="preloader-count">0%</div>
         </div>
-        <!-- ==== js dependencies start ==== -->
-        <!-- jquery -->
-        <script src="assets/js/jquery-4.0.0.min.js"></script>
-        <!-- bootstrap five js -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- nice select js -->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!-- magnific popup js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- swiper slider js -->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!-- viewport js -->
-        <script src="assets/js/viewport.jquery.js"></script>
-        <!-- odometer js -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- vanilla tilt js -->
-        <script src="assets/js/vanilla-tilt.min.js"></script>
-        <!-- phospor icons js -->
-        <script src="assets/js/phosphor-icon.js"></script>
-        <!-- image loaded js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <!-- isotope js -->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <!-- scrolltrigger js -->
-        <script src="assets/js/ScrollTrigger.min.js"></script>
-        <!-- splittext js -->
-        <script src="assets/js/SplitText.min.js"></script>
-        <!-- scrollto js -->
-        <script src="assets/js/ScrollToPlugin.min.js"></script>
-        <!-- lenis js -->
-        <script src="assets/js/lenis.min.js"></script>
-        <!-- gsap js -->
-        <script src="assets/js/gsap.min.js"></script>
-        <!-- three js -->
-        <script src="assets/js/three.js"></script>
-        <!-- hover effect js -->
-        <script src="assets/js/hover-effect.umd.js"></script>
-        <!-- ==== / js dependencies end ==== -->
-        <!-- main js -->
-        <script src="assets/js/main.js"></script>
-    </body>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-header__menu-box">
+                <nav class="navbar p-0">
+                  <div class="navbar-logo">
+                    <a href="index.html">
+                      <img
+                        src="assets/images/logo.svg"
+                        alt="Image"
+                        class="logo-ch"
+                      />
+                    </a>
+                  </div>
+                  <div class="navbar__menu-wrapper">
+                    <div class="navbar__menu d-none d-xl-block">
+                      <ul class="navbar__list">
+                        <li
+                          class="navbar__item navbar__item--has-children d-none d-xl-block"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu mega-menu">
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-one.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index.html">Architecture Solution</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-two.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-two.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-two.html">Architecture Studio</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-three.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-three.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-three.html">Architecture Bureau</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-four.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-four.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-four.html">Interior Studio</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children d-block d-xl-none nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="index.html">Architecture Solution</a>
+                            </li>
+                            <li>
+                              <a href="index-two.html">Architecture Studio</a>
+                            </li>
+                            <li>
+                              <a href="index-three.html">Architecture Bureau</a>
+                            </li>
+                            <li>
+                              <a href="index-four.html">Interior Studio</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                          <a href="about-us.html">About</a>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Services</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="our-services.html">Services</a>
+                            </li>
+                            <li>
+                              <a href="service-details.html">Service Details</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Projects</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="our-projects.html">Portfolio</a>
+                            </li>
+                            <li>
+                              <a href="project-details.html"
+                                >Portfolio Details</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Pages</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="about-us.html">About</a>
+                            </li>
+                            <li>
+                              <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                              <a href="our-team.html">Our Team</a>
+                            </li>
+                            <li>
+                              <a href="coming-soon.html">Coming Soon</a>
+                            </li>
+                            <li>
+                              <a href="404.html">Error</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >News</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="news.html">News</a>
+                            </li>
+                            <li>
+                              <a href="news-list.html">News List</a>
+                            </li>
+                            <li>
+                              <a href="news-details.html">News Details</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="navbar__options">
+                      <div class="navbar__mobile-options d-none d-sm-block">
+                        <a href="contact-us.html" class="btn-primary">
+                          <span
+                            class="btn-animated-text"
+                            data-text="Get In Touch"
+                            >Get In Touch</span
+                          >
+                        </a>
+                      </div>
+                      <button
+                        class="open-offcanvas-nav d-flex d-xl-none"
+                        aria-label="toggle mobile menu"
+                        title="open offcanvas menu"
+                      >
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                      </button>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== mobile menu start ==== -->
+      <div class="mobile-menu d-block d-xxl-none" data-lenis-prevent>
+        <nav class="mobile-menu__wrapper">
+          <div class="mobile-menu__header nav-fade">
+            <div class="logo">
+              <a href="index.html" aria-label="home page" title="logo">
+                <img src="assets/images/logo.svg" alt="Image" class="logo-ch" />
+              </a>
+            </div>
+            <button aria-label="close mobile menu" class="close-mobile-menu">
+              <i class="ti ti-x"></i>
+            </button>
+          </div>
+          <div class="mobile-menu__list"></div>
+          <div class="mobile-menu__cta d-block d-md-none nav-fade">
+            <a href="contact-us.html" class="btn-primary">
+              <span class="btn-animated-text" data-text="Get In Touch"
+                >Get In Touch</span
+              >
+            </a>
+          </div>
+          <div class="mobile-menu__social social nav-fade">
+            <ul class="social">
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  aria-label="share us on linkedin"
+                  title="linkedin"
+                  class="hover-line-bottom-gray"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  aria-label="share us on facebook"
+                  title="facebook"
+                  class="hover-line-bottom-gray"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  aria-label="share us on instagram"
+                  title="instagram"
+                  class="hover-line-bottom-gray"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile-menu__backdrop"></div>
+      <!-- ==== / mobile menu end ==== -->
+      <!-- ==== contact banner section start ==== -->
+      <section class="contact-banner pt-fix pb-140 template-bg scale-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 col-xl-7 col-xxl-6">
+              <div class="contact-banner__content-wrapper">
+                <div class="contact-banner__content">
+                  <div class="sub-title">
+                    <ul>
+                      <li>
+                        <a href="index.html">Home</a>
+                      </li>
+                      <li class="dot"></li>
+                      <li>Contact Us</li>
+                    </ul>
+                  </div>
+                  <h2 class="title-md title-animation fw-6 template-color">
+                    Have Any Questions? Simply Reach Us.
+                  </h2>
+                  <div class="contact-banner__content-cta">
+                    <a href="#customerSupport" class="btn-primary">
+                      <span
+                        class="btn-animated-text"
+                        data-text="Talk to Archinex"
+                        >Talk to Archinex</span
+                      >
+                    </a>
+                  </div>
+                </div>
+                <div class="contact-banner__address fade-up">
+                  <p class="text-xxl template-color fw-5 maison-neue">
+                    Contact Us:
+                  </p>
+                  <div class="contact-banner__address-list">
+                    <p class="txt-light text-lg">
+                      Lorem Ipsum is simply is dummy my is text dummy text.
+                    </p>
+                    <ul class="mt-30">
+                      <li>
+                        <a href="mailto:info@example.com">
+                          <i class="ph ph-envelope-simple"></i>
+                          info@example.com
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://share.google/VXsdMDrd6Z5UvhC7E"
+                          target="_blank"
+                        >
+                          <i class="ph ph-map-pin"></i>
+                          6391 Elgin St. Celina, 10299
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-banner__thumb-wrapper">
+          <div class="contact-banner__thumb">
+            <div class="contact-banner__thumb-left">
+              <div
+                class="contact-banner__thumb-single scale-up hover-image"
+                data-displacement="assets/images/fluid.webp"
+                data-intensity="0.2"
+                data-speedin="1"
+                data-speedout="1"
+              >
+                <img
+                  src="assets/images/contact/thumb-sm.webp"
+                  alt="Image"
+                  class="flip-img"
+                />
+              </div>
+              <div
+                class="contact-banner__thumb-content mt-20 d-one d-sm-flex fade-up"
+              >
+                <div class="thumb">
+                  <i class="ph ph-phone-outgoing"></i>
+                </div>
+                <div class="content">
+                  <div class="intro">
+                    <p class="fw-5">Customer Support:</p>
+                  </div>
+                  <div class="content-info">
+                    <p>
+                      <a href="tel:123-456-7890">+(123) 456-7890</a>
+                    </p>
+                    <p class="mt-12">
+                      <a href="tel:3491-357-95-00">+3491 357 95 00</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-banner__thumb-right">
+              <div
+                class="contact-banner__thumb-single hover-image scale-up"
+                data-displacement="assets/images/fluid.webp"
+                data-intensity="0.2"
+                data-speedin="1"
+                data-speedout="1"
+              >
+                <img
+                  src="assets/images/contact/thumb-md.webp"
+                  alt="Image"
+                  class="flip-img"
+                />
+              </div>
+              <div
+                class="contact-banner__thumb-single mt-20 hover-image scale-up"
+                data-displacement="assets/images/fluid.webp"
+                data-intensity="0.2"
+                data-speedin="1"
+                data-speedout="1"
+              >
+                <img
+                  src="assets/images/contact/thumb-lg.webp"
+                  alt="Image"
+                  class="flip-img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / contact banner section end ==== -->
+      <!-- ==== contact form section start ==== -->
+      <section class="contact-form" id="customerSupport">
+        <div class="contact-form__inner pt-140 pb-140">
+          <div class="container">
+            <div class="row gutter-40 align-items-end">
+              <div class="col-12 col-lg-6 col-xxl-5">
+                <div class="contact-form__content">
+                  <div class="contact-form__content-intro fade-up">
+                    <h2 class="title-animation fw-5 title-md txt-light-fix">
+                      Let's Get Start With Us.
+                    </h2>
+                    <p class="text-lg txt-light-fix title-animation">
+                      Whether you have questions, want to schedule a tour, or
+                      need assistance with a listing, our team is ready to
+                      assist
+                    </p>
+                  </div>
+                  <div class="office-location fade-up" data-delay="100">
+                    <div class="location-map">
+                      <img src="assets/images/contact/map.webp" alt="Image" />
+                    </div>
+                    <div class="location-content">
+                      <p class="text-xxl fw-5 template-color">
+                        Our Head Office:
+                      </p>
+                      <p class="mt-16">
+                        <a
+                          href="https://share.google/VXsdMDrd6Z5UvhC7E"
+                          target="_blank"
+                          >123 Main Street, Suite 456, Anytown, USA</a
+                        >
+                      </p>
+                      <div class="cta mt-16">
+                        <a
+                          href="https://share.google/VXsdMDrd6Z5UvhC7E"
+                          target="_blank"
+                        >
+                          <span>View In Map</span>
+                          <i class="ph ph-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6 col-xxl-6 offset-xxl-1">
+                <div class="contact-form__main fade-up" data-delay="200">
+                  <p class="text-xxl fw-5 text-white neutral-top">
+                    Got a Project in Mind?
+                  </p>
+                  <form action="#" method="post" class="mt-30">
+                    <div class="input-single">
+                      <input
+                        type="text"
+                        name="user-name"
+                        id="userName"
+                        placeholder="Your Name"
+                        required
+                      />
+                    </div>
+                    <div class="input-single">
+                      <input
+                        type="email"
+                        name="user-email"
+                        id="userEmail"
+                        placeholder="Enter Your Email"
+                        required
+                      />
+                    </div>
+                    <div class="input-single">
+                      <input
+                        type="text"
+                        name="user-web"
+                        id="userWeb"
+                        placeholder="Website (Optional)"
+                        required
+                      />
+                    </div>
+                    <div class="input-single">
+                      <textarea
+                        name="user-message"
+                        id="userMessage"
+                        placeholder="Write Your Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="mt-20">
+                      <button
+                        type="submit"
+                        class="btn-secondary"
+                        title="submit message"
+                        aria-label="submit message"
+                      >
+                        <span class="btn-animated-text" data-text="Send Message"
+                          >Send Message</span
+                        >
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-bg">
+            <img src="assets/images/contact/contact-bg.webp" alt="Image" />
+          </div>
+          <hr class="divider" />
+          <!-- ==== partner section start ==== -->
+          <div class="partner">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-12">
+                  <div class="partner__inner">
+                    <div class="partner__slider">
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/one.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/two.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/three.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/four.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/five.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/six.webp"
+                          alt="Image"
+                        />
+                      </div>
+                    </div>
+                    <div class="partner__slider">
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/one.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/two.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/three.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/four.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/five.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/six.webp"
+                          alt="Image"
+                        />
+                      </div>
+                    </div>
+                    <div class="partner__slider">
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/one.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/two.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/three.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/four.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/five.webp"
+                          alt="Image"
+                        />
+                      </div>
+                      <div class="partner__single">
+                        <img
+                          src="assets/images/partners/six.webp"
+                          alt="Image"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ==== / partner section end ==== -->
+        </div>
+      </section>
+      <!-- ==== / contact form section end ==== -->
+      <!-- ==== footer start ==== -->
+      <footer class="footer pt-140">
+        <div class="container-lg">
+          <div class="row gutter-40">
+            <div class="col-12 col-xl-5 col-xxl-6">
+              <div class="footer__newsletter fade-up" data-delay="100">
+                <p class="text-xl maison-neue template-text fw-5">
+                  Sign up to Archinex to stay up to date on news and
+                  developments
+                </p>
+                <form action="#" method="post">
+                  <div class="input-single">
+                    <input
+                      type="email"
+                      name="newsletter-email"
+                      id="newsletterEmail"
+                      placeholder="Email"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      aria-label="submit newsletter"
+                      title="submit newsletter"
+                    >
+                      Send
+                      <i class="ph ph-paper-plane-right"></i>
+                    </button>
+                    <span class="underline"></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="col-12 col-lg-12 col-xl-7 col-xxl-6">
+              <div class="row gutter-70">
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__logo lh-0">
+                      <a href="index.html">
+                        <img
+                          src="assets/images/logo.svg"
+                          alt="Image"
+                          class="logo-ch"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info center-auto">
+                      <p class="fw-5">Archinex Creative Spaces</p>
+                      <p class="mt-6">
+                        <a
+                          href="https://share.google/VXsdMDrd6Z5UvhC7E"
+                          target="_blank"
+                        >
+                          29 Gilbertson Road,
+                          <br />
+                          Seacliff Park SA 5049
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info left-auto">
+                      <p class="fw-5">General Enquiry</p>
+                      <p class="mt-6">
+                        <a href="mailto:nex@archinex.com.au"
+                          >nex@archinex.com.au</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info">
+                      <p class="fw-5">Opening hours:</p>
+                      <p class="mt-6 txt-light">8:30am - 5pm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="footer__item-row-single fade-up" data-delay="100">
+                    <div class="footer__info center-auto">
+                      <p class="fw-5">Phone:</p>
+                      <p class="mt-6">
+                        <a href="tel:424-203-1713">(424) 203 1713</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom black-two pt-25 pb-25 mt-140">
+          <div class="container-lg">
+            <div class="row align-items-center gutter-20">
+              <div class="col-12 col-lg-6">
+                <div class="footer-bottom__left">
+                  <p class="text-gray mt-0">
+                    &copy; All Rights Reserved
+                    <a href="index.html" class="gray-hover">Archinex</a>
+                    <span id="copyrightYear"></span>
+                    .
+                  </p>
+                  <p class="text-gray mt-0">
+                    Site by
+                    <a href="index.html" class="gray-hover">
+                      Themes
+                      <sup>®</sup>
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="footer-bottom__right">
+                  <p class="text-gray mt-0">Social Sites:</p>
+                  <ul class="social">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/"
+                        target="_blank"
+                        aria-label="share us on linkedin"
+                        title="linkedin"
+                        class="hover-line-bottom"
+                        >Linkedin</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/"
+                        target="_blank"
+                        aria-label="share us on facebook"
+                        title="facebook"
+                        class="hover-line-bottom"
+                        >Facebook</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.instagram.com/"
+                        target="_blank"
+                        aria-label="share us on instagram"
+                        title="instagram"
+                        class="hover-line-bottom"
+                        >Instagram</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ==== / footer end ==== -->
+      <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <!-- ==== custom cursor start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+        <span class="drag"> drag </span>
+        <span class="view"> view </span>
+        <span class="play"> play </span>
+      </div>
+      <!-- ==== / custom cursor end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button
+        class="progress-wrap"
+        aria-label="scroll indicator"
+        title="back to top"
+      >
+        <span></span>
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+    </div>
+    <!-- ==== js dependencies start ==== -->
+    <!-- jquery -->
+    <script src="assets/js/jquery-4.0.0.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- swiper slider js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- vanilla tilt js -->
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <!-- phospor icons js -->
+    <script src="assets/js/phosphor-icon.js"></script>
+    <!-- image loaded js -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope js -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- scrolltrigger js -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- splittext js -->
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- scrollto js -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- lenis js -->
+    <script src="assets/js/lenis.min.js"></script>
+    <!-- gsap js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- three js -->
+    <script src="assets/js/three.js"></script>
+    <!-- hover effect js -->
+    <script src="assets/js/hover-effect.umd.js"></script>
+    <!-- ==== / js dependencies end ==== -->
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

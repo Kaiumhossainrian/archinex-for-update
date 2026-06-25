@@ -2500,50 +2500,32 @@
      * 52. template options
      * ======================================
      */
-    $(".open-color").on("click", function () {
-      $(this).hide();
-      $(".close-color").show();
-      $(".color-icon").css("right", "250px");
-      $(".color-palate-inner").css({ right: "0" });
-    });
-
-    $(".close-color").on("click", function () {
-      $(this).hide();
-      $(".open-color").show();
-      $(".color-icon").css("right", "0px");
-      $(".color-palate-inner").css({ right: "-252px" });
-    });
-
-    $(".color-version li").on("click", function () {
-      $(this).closest(".color-version").find("li").removeClass("active");
-      $(this).addClass("active");
-    });
-
-    $(".rtl-version li").on("click", function () {
-      $(this).closest(".rtl-version").find("li").removeClass("active");
-      $(this).addClass("active");
-    });
-
-    $(".light-mode").on("click", function () {
-      $("body").removeClass("dark-mode");
-      $(".logo-ch").attr("src", "assets/images/logo.svg");
-      $(".logo-ch-sm").attr("src", "assets/images/logo-sm.svg");
-    });
-
-    $(".dark-mode").on("click", function () {
+    if (localStorage.getItem("theme") === "dark") {
       $("body").addClass("dark-mode");
+      $(".theme-toggle i").removeClass("ti-moon").addClass("ti-sun");
+
       $(".logo-ch").attr("src", "assets/images/logo-light.svg");
       $(".logo-ch-sm").attr("src", "assets/images/logo-sm-light.svg");
-    });
+    }
 
-    $(".ltr-yes").on("click", function () {
-      $(".page-wrapper").removeClass("rtl");
-      initHeroAnimation();
-    });
+    $(".theme-toggle").on("click", function () {
+      $("body").toggleClass("dark-mode");
 
-    $(".ltr-no").on("click", function () {
-      $(".page-wrapper").addClass("rtl");
-      initHeroAnimation();
+      if ($("body").hasClass("dark-mode")) {
+        localStorage.setItem("theme", "dark");
+
+        $(".logo-ch").attr("src", "assets/images/logo-light.svg");
+        $(".logo-ch-sm").attr("src", "assets/images/logo-sm-light.svg");
+
+        $(this).find("i").removeClass("ti-moon").addClass("ti-sun");
+      } else {
+        localStorage.setItem("theme", "light");
+
+        $(".logo-ch").attr("src", "assets/images/logo.svg");
+        $(".logo-ch-sm").attr("src", "assets/images/logo-sm.svg");
+
+        $(this).find("i").removeClass("ti-sun").addClass("ti-moon");
+      }
     });
   });
 })(jQuery);

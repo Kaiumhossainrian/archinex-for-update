@@ -1,1502 +1,1834 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <!-- required meta -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- #favicon -->
-        <link rel="shortcut icon" href="assets/images/favicon.webp" type="image/x-icon">
-        <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon">
-        <!-- #title -->
-        <title>Archinex | Architecture & Interior HTML5 Template</title>
-        <!-- #keywords -->
-        <meta name="keywords" content="architecture, interior, creative, modern, luxury, html, bootstrap, scss">
-        <!-- #description -->
-        <meta name="description" content="Architecture & Interior HTML5 Template">
-        <!-- bootstrap five css -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!-- font awesome six css -->
-        <link rel="stylesheet" href="assets/fonts/css/all.min.css">
-        <!-- tabler icons css -->
-        <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css">
-        <!-- magnific popup css -->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!-- nice select css -->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!-- odometer css -->
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <!-- swiper slider css -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="assets/css/main.css">
-    </head>
-    <body>
-        <!--[if lt IE 9]>
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.webp"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favicon.webp" type="image/x-icon" />
+    <!-- #title -->
+    <title>Archinex | Architecture & Interior HTML5 Template</title>
+    <!-- #keywords -->
+    <meta
+      name="keywords"
+      content="architecture, interior, creative, modern, luxury, html, bootstrap, scss"
+    />
+    <!-- #description -->
+    <meta name="description" content="Architecture & Interior HTML5 Template" />
+    <!-- bootstrap five css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome six css -->
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css" />
+    <!-- tabler icons css -->
+    <link rel="stylesheet" href="assets/fonts/css/tabler-icons.min.css" />
+    <!-- magnific popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <!-- odometer css -->
+    <link rel="stylesheet" href="assets/css/odometer.css" />
+    <!-- swiper slider css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!--[if lt IE 9]>
       <p class="browserupgrade">
-         You are using an <strong>outdated</strong> browser. Please
-         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-         your experience and security.
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
       </p>
-      <![endif]-->
-        <div class="page-wrapper rtl">
-            <!-- ==== preloader start ==== -->
-            <div class="preloader">
-                <div class="preloader-inner">
-                    <div class="preloader-logo">
-                        <span>LOADING</span>
-                    </div>
-                    <div class="preloader-bar">
-                        <div class="preloader-progress"></div>
-                    </div>
-                    <div class="preloader-count">0%</div>
-                </div>
-            </div>
-            <!-- ==== / preloader end ==== -->
-            <!-- ==== header start ==== -->
-            <header class="header header-two">
-                <div class="container-lg">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="main-header__menu-box">
-                                <nav class="navbar p-0">
-                                    <div class="navbar-logo">
-                                        <a href="index.html">
-                                            <img src="assets/images/logo.svg" alt="Image" class="logo-ch">
-                                        </a>
-                                    </div>
-                                    <div class="navbar__menu-wrapper">
-                                        <div class="brand-date d-none d-sm-block">
-                                            <span>- Since 1994 -</span>
-                                        </div>
-                                        <div class="navbar__menu d-none d-xl-block">
-                                            <ul class="navbar__list">
-                                                <li class="navbar__item navbar__item--has-children d-none d-xl-block">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Home</a>
-                                                    <ul class="navbar__sub-menu mega-menu">
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-one.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index.html">Architecture Solution</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-two.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-two.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-two.html">Architecture Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-three.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-three.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-three.html">Architecture Bureau</a>
-                                                        </li>
-                                                        <li>
-                                                            <div class="mega-content-wrapper">
-                                                                <img src="assets/images/home-four.webp" alt="Image">
-                                                                <div class="mega-content">
-                                                                    <a href="index-four.html">View Demo</a>
-                                                                </div>
-                                                            </div>
-                                                            <a href="index-four.html">Interior Studio</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children d-block d-xl-none nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Home</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="index.html">Architecture Solution</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-two.html">Architecture Studio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-three.html">Architecture Bureau</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="index-four.html">Interior Studio</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item nav-fade">
-                                                    <a href="about-us.html">Studio</a>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Projects</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="our-projects.html">Portfolio</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="project-details.html">Portfolio Details</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="navbar__item navbar__item--has-children nav-fade">
-                                                    <a href="#" class="navbar__dropdown-label dropdown-label-alter">Pages</a>
-                                                    <ul class="navbar__sub-menu">
-                                                        <li>
-                                                            <a href="about-us.html">About</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="contact-us.html">Contact Us</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="our-team.html">Our Team</a>
-                                                        </li>
-                                                        <li class="navbar__item navbar__item--has-children">
-                                                            <a href="#" class="navbar__dropdown-label navbar__dropdown-label-sub">Services</a>
-                                                            <ul class="navbar__sub-menu navbar__sub-menu__nested">
-                                                                <li>
-                                                                    <a href="our-services.html">Our Services</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="service-details.html">Service Details</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="navbar__item navbar__item--has-children">
-                                                            <a href="#" class="navbar__dropdown-label navbar__dropdown-label-sub">News</a>
-                                                            <ul class="navbar__sub-menu navbar__sub-menu__nested">
-                                                                <li>
-                                                                    <a href="news.html">News</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="news-list.html">News List</a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="news-details.html">News Details</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li>
-                                                            <a href="coming-soon.html">Coming Soon</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="404.html">Error</a>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="navbar__options">
-                                            <div class="navbar__mobile-options d-none d-sm-block">
-                                                <a href="contact-us.html">
-                                                    Contact Us
-                                                </a>
-                                            </div>
-                                            <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu" title="open offcanvas menu">
-                                                <span class="icon-bar top-bar"></span>
-                                                <span class="icon-bar middle-bar"></span>
-                                                <span class="icon-bar bottom-bar"></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-            <!-- ==== / header end ==== -->
-            <!-- ==== mobile menu start ==== -->
-            <div class="mobile-menu d-block d-xxl-none" data-lenis-prevent>
-                <nav class="mobile-menu__wrapper">
-                    <div class="mobile-menu__header nav-fade">
-                        <div class="logo">
-                            <a href="index.html" aria-label="home page" title="logo">
-                                <img src="assets/images/logo.svg" alt="Image" class="logo-ch">
-                            </a>
-                        </div>
-                        <button aria-label="close mobile menu" class="close-mobile-menu">
-                            <i class="ti ti-x"></i>
-                        </button>
-                    </div>
-                    <div class="mobile-menu__list"></div>
-                    <div class="mobile-menu__cta  d-block d-md-none nav-fade">
-                        <a href="contact-us.html" class="btn-primary">
-                            <span class="btn-animated-text" data-text="Get In Touch">Get In Touch</span>
-                        </a>
-                    </div>
-                    <div class="mobile-menu__social social nav-fade">
-                        <ul class="social">
-                            <li>
-                                <a
-                                    href="https://www.linkedin.com/"
-                                    target="_blank"
-                                    aria-label="share us on linkedin"
-                                    title="linkedin"
-                                    class="hover-line-bottom-gray"
-                                >Linkedin</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.facebook.com/"
-                                    target="_blank"
-                                    aria-label="share us on facebook"
-                                    title="facebook"
-                                    class="hover-line-bottom-gray"
-                                >Facebook</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.instagram.com/"
-                                    target="_blank"
-                                    aria-label="share us on instagram"
-                                    title="instagram"
-                                    class="hover-line-bottom-gray"
-                                >Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-            <div class="mobile-menu__backdrop"></div>
-            <!-- ==== / mobile menu end ==== -->
-            <!-- ==== hero section start ==== -->
-            <section class="hero-two template-bg">
-                <div class="container-lg">
-                    <div class="row gutter-20">
-                        <div class="col-12 col-xl-2">
-                            <div class="hero-two__intro">
-                                <p class="text-sm text-uppercase txt-light fw-5">Creating timeless residence in Sweden</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-xl-9">
-                            <div class="hero-two__content">
-                                <div class="hero__heading neutral-top">
-                                    <h2 class="title-lg fw-5 inter cd-headline clip">
-                                        Archinex
-                                        <br>
-                                        visionary
-                                        <span class="fraunces italic fw-5 cfc dr">/</span>
-                                        <span class="cd-words-wrapper fraunces italic cfc fw-5">
-                                            <i class="is-visible fw-5">inspiring</i>
-                                            <i class="app fw-5">motivated</i>
-                                            <i class="fw-5">passion</i>
-                                        </span>
-                                        <br>
-                                        architecture studio.
-                                    </h2>
-                                </div>
-                                <div class="hero-two__thumb mt-80">
-                                    <img src="assets/images/hero-two-thumb.webp" alt="Image" class="flip-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-two__cta-wrapper d-none d-xl-flex">
-                    <div class="hero-two__lang">
-                        <button>EN</button>
-                        <span class="divider-c">/</span>
-                        <button>SE</button>
-                    </div>
-                    <div class="hero-two__cta">
-                        <a href="our-projects.html">
-                            <span>Discover Projects</span>
-                            <img src="assets/images/lg-arrow.webp" alt="Image">
-                        </a>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / hero section end ==== -->
-            <!-- ==== about section start ==== -->
-            <section class="about-two pt-140 pb-140 scale-wrapper">
-                <div class="container">
-                    <div class="row gutter-24">
-                        <div class="col-12 col-md-3">
-                            <p class="txt-light-4">/ About Studio</p>
-                        </div>
-                        <div class="col-12 col-md-9">
-                            <div class="about-two__intro">
-                                <h2 class="title-animation title-lg-sm text-end fw-5 text-white">Since 1996</h2>
-                                <h2 class="title-animation title-lg-sm fw-5 text-white">Building new standards of excellence.</h2>
-                                <p class="mt-40 txt-light-4 title-animation">We craft sleek, timeless architectural experience that blend innovation, functionality, and aesthetics. From concept to execution, we bring visions to life with precision and creative architectural designs.</p>
-                                <div class="mt-60">
-                                    <a href="about-us.html" class="btn-light-2">
-                                        <span class="btn-animated-text" data-text="About Archinex">About Archinex</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-lg">
-                    <div class="row align-items-end">
-                        <div class="col-12 col-lg-6">
-                            <div class="about-two__thumb-lg-wrapper">
-                                <div
-                                    class="thumb-lg scale-up hover-image"
-                                    data-displacement="assets/images/fluid.webp"
-                                    data-intensity="0.2"
-                                    data-speedin="1"
-                                    data-speedout="1"
-                                >
-                                    <img src="assets/images/about/one.webp" alt="Image" class="flip-img">
-                                </div>
-                                <div class="thumb-lg-content mt-140">
-                                    <h3 class="title-lg-sm title-animation fw-5 text-white">Archinex builds Houses — Buildings everyone would like to live in.</h3>
-                                    <p class="txt-light-4 title-animation mt-40">We take visionary approach to sales and marketing of real estate development, delivering exceptional result. Our deep knowledge - access to cutting edge research set us apart in the industry.</p>
-                                    <div class="mt-60 fade-up">
-                                        <a href="contact-us.html" class="btn-quaternary">
-                                            <span class="btn-animated-text" data-text="Get In Touch">Get In Touch</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="about-two__thumb-sm-wrapper">
-                                <div
-                                    class="thumb-sm scale-up hover-image"
-                                    data-displacement="assets/images/fluid.webp"
-                                    data-intensity="0.2"
-                                    data-speedin="1"
-                                    data-speedout="1"
-                                >
-                                    <img src="assets/images/about/two.webp" alt="Image" class="flip-img">
-                                </div>
-                                <div
-                                    class="thumb-sm-two mt-30 text-center scale-up hover-image"
-                                    data-displacement="assets/images/fluid.webp"
-                                    data-intensity="0.2"
-                                    data-speedin="1"
-                                    data-speedout="1"
-                                >
-                                    <img src="assets/images/about/three.webp" alt="Image" class="flip-img">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="lines-cr">
-                    <div class="line-cr"></div>
-                    <div class="line-cr"></div>
-                    <div class="line-cr"></div>
-                    <div class="line-cr"></div>
-                    <div class="line-cr"></div>
-                    <div class="line-cr"></div>
-                </div>
-            </section>
-            <!-- ==== / about section end ==== -->
-            <!-- ==== partner section start ==== -->
-            <div class="partner-two template-bg">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="partner__inner">
-                                <div class=" partner__slider">
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/one.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/two.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/three.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/four.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/five.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/six.webp" alt="Image">
-                                    </div>
-                                </div>
-                                <div class=" partner__slider">
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/one.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/two.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/three.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/four.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/five.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/six.webp" alt="Image">
-                                    </div>
-                                </div>
-                                <div class=" partner__slider">
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/one.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/two.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/three.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/four.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/five.webp" alt="Image">
-                                    </div>
-                                    <div class="partner__single">
-                                        <img src="assets/images/partners/six.webp" alt="Image">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ==== / partner section end ==== -->
-            <!-- ==== service section start ==== -->
-            <section class="service-two pt-140 pb-140 template-bg scale-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-md-7 col-lg-6">
-                            <div class="service-two__header mb-80">
-                                <p class="txt-light-6">/ Our Services</p>
-                                <h2 class="title-lg-sm title-animation fw-5 mt-30">From blends design vision with purpose, creating vibrant spaces.</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-lg">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="cvrt mb-30">
-                                <p class="txt-light-6">Ready to get started?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row gutter-40">
-                        <div class="col-12 col-lg-6">
-                            <div class="service-two__content">
-                                <div class="service-two__content-single scale-up active">
-                                    <div class="service-two__content-single-wrapper">
-                                        <div class="service-two__left">
-                                            <span class="cr-number fraunces italic fw-5">(01)</span>
-                                        </div>
-                                        <div class="service-two__right">
-                                            <div class="service-two__single-intro">
-                                                <div class="at-wrapper">
-                                                    <p class="text-xxl fw-5 masion-neue">
-                                                        <a href="service-details.html">Interior design expertise</a>
-                                                    </p>
-                                                    <a href="service-details.html">
-                                                        <i class="ph-light ph-arrow-circle-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="service-two__single-content">
-                                                <p class="txt-light-6">Architectural design services provide for a variety of projects, from residential homes and commercial buildings to public spaces and infrastructure.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="service-two__content-single scale-up">
-                                    <div class="service-two__content-single-wrapper">
-                                        <div class="service-two__left">
-                                            <span class="cr-number fraunces italic fw-5">(02)</span>
-                                        </div>
-                                        <div class="service-two__right">
-                                            <div class="service-two__single-intro">
-                                                <div class="at-wrapper">
-                                                    <p class="text-xxl fw-5 masion-neue">
-                                                        <a href="service-details.html">Architectural design solutions</a>
-                                                    </p>
-                                                    <a href="service-details.html">
-                                                        <i class="ph-light ph-arrow-circle-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="service-two__single-content">
-                                                <p class="txt-light-6">
-                                                    Interior design services enhance spaces with creative solutions, from modern apartments and offices to retail stores and hospitality environments.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="service-two__content-single scale-up">
-                                    <div class="service-two__content-single-wrapper">
-                                        <div class="service-two__left">
-                                            <span class="cr-number fraunces italic fw-5">(03)</span>
-                                        </div>
-                                        <div class="service-two__right">
-                                            <div class="service-two__single-intro">
-                                                <div class="at-wrapper">
-                                                    <p class="text-xxl fw-5 masion-neue">
-                                                        <a href="service-details.html">Sustainable design insight</a>
-                                                    </p>
-                                                    <a href="service-details.html">
-                                                        <i class="ph-light ph-arrow-circle-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="service-two__single-content">
-                                                <p class="txt-light-6">
-                                                    Engineering consulting services support diverse developments, from structural planning and urban systems to transportation networks and industrial facilities.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="service-two__content-single scale-up">
-                                    <div class="service-two__content-single-wrapper">
-                                        <div class="service-two__left">
-                                            <span class="cr-number fraunces italic fw-5">(04)</span>
-                                        </div>
-                                        <div class="service-two__right">
-                                            <div class="service-two__single-intro">
-                                                <div class="at-wrapper">
-                                                    <p class="text-xxl fw-5 masion-neue">
-                                                        <a href="service-details.html">Landscape renovation</a>
-                                                    </p>
-                                                    <a href="service-details.html">
-                                                        <i class="ph-light ph-arrow-circle-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="service-two__single-content">
-                                                <p class="txt-light-6">
-                                                    Construction management services oversee projects efficiently, from small renovations and housing units to large-scale commercial and infrastructure works.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="service-two__content-single scale-up">
-                                    <div class="service-two__content-single-wrapper">
-                                        <div class="service-two__left">
-                                            <span class="cr-number fraunces italic fw-5">(05)</span>
-                                        </div>
-                                        <div class="service-two__right">
-                                            <div class="service-two__single-intro">
-                                                <div class="at-wrapper">
-                                                    <p class="text-xxl fw-5 masion-neue">
-                                                        <a href="service-details.html">Projects management</a>
-                                                    </p>
-                                                    <a href="service-details.html">
-                                                        <i class="ph-light ph-arrow-circle-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="service-two__single-content">
-                                                <p class="txt-light-6">
-                                                    Landscape design services transform outdoor environments, from private gardens and parks to public plazas and sustainable green spaces.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="service-two__content-single scale-up">
-                                    <div class="service-two__content-single-wrapper">
-                                        <div class="service-two__left">
-                                            <span class="cr-number fraunces italic fw-5">(06)</span>
-                                        </div>
-                                        <div class="service-two__right">
-                                            <div class="service-two__single-intro">
-                                                <div class="at-wrapper">
-                                                    <p class="text-xxl fw-5 masion-neue">
-                                                        <a href="service-details.html">Urban housing solutions</a>
-                                                    </p>
-                                                    <a href="service-details.html">
-                                                        <i class="ph-light ph-arrow-circle-right"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="service-two__single-content">
-                                                <p class="txt-light-6">
-                                                    Urban planning services guide city development strategically, from neighborhood layouts and zoning plans to smart cities and large infrastructure projects.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="mt-100 service-two__cta">
-                                    <a href="our-services.html" class="btn-quaternary">
-                                        <span class="btn-animated-text" data-text="Explore Services">Explore Services</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="service-two__thumb-wrapper fade-up">
-                                <div class="service-two__thumbs">
-                                    <div
-                                        class="service-two__thumb-single active hover-image"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/services/service-thumb-two.webp" alt="Image" class="flip-img">
-                                    </div>
-                                    <div
-                                        class="service-two__thumb-single hover-image"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/services/service-thumb-three.webp" alt="Image" class="flip-img">
-                                    </div>
-                                    <div
-                                        class="service-two__thumb-single hover-image"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/services/service-thumb-four.webp" alt="Image" class="flip-img">
-                                    </div>
-                                    <div
-                                        class="service-two__thumb-single hover-image"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/services/service-thumb-five.webp" alt="Image" class="flip-img">
-                                    </div>
-                                    <div
-                                        class="service-two__thumb-single hover-image"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/services/service-thumb-six.webp" alt="Image" class="flip-img">
-                                    </div>
-                                    <div
-                                        class="service-two__thumb-single hover-image"
-                                        data-displacement="assets/images/fluid.webp"
-                                        data-intensity="0.2"
-                                        data-speedin="1"
-                                        data-speedout="1"
-                                    >
-                                        <img src="assets/images/services/service-thumb-seven.webp" alt="Image" class="flip-img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / service section end ==== -->
-            <!-- ==== field section start ==== -->
-            <section class="field pt-140 pb-140 bg-alt">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="field__wrapper">
-                                <div class="field__inner">
-                                    <div class="field__single">
-                                        <h3 class="fraunces italic title-lg fw-6">
-                                            <a href="our-services.html">Residential</a>
-                                        </h3>
-                                        <div class="field-thumb d-none d-md-block" data-background="assets/images/field/one.webp"></div>
-                                    </div>
-                                    <span class="divide-cs"></span>
-                                    <div class="field__single">
-                                        <h3 class="fraunces italic title-lg fw-6">
-                                            <a href="our-services.html">Innovative</a>
-                                        </h3>
-                                        <div class="field-thumb d-none d-md-block" data-background="assets/images/field/two.webp"></div>
-                                    </div>
-                                    <span class="divide-cs"></span>
-                                    <div class="field__single">
-                                        <h3 class="fraunces italic title-lg fw-6">
-                                            <a href="our-services.html">Exterior</a>
-                                        </h3>
-                                        <div class="field-thumb d-none d-md-block" data-background="assets/images/field/three.webp"></div>
-                                    </div>
-                                    <span class="divide-cs"></span>
-                                    <div class="field__single">
-                                        <h3 class="fraunces italic title-lg fw-6">
-                                            <a href="our-services.html">Structural Craft</a>
-                                        </h3>
-                                        <div class="field-thumb d-none d-md-block" data-background="assets/images/field/four.webp"></div>
-                                    </div>
-                                    <span class="divide-cs"></span>
-                                    <div class="field__single">
-                                        <h3 class="fraunces italic title-lg fw-6">
-                                            <a href="our-services.html">Urban</a>
-                                        </h3>
-                                        <div class="field-thumb d-none d-md-block" data-background="assets/images/field/five.webp"></div>
-                                    </div>
-                                    <span class="divide-cs"></span>
-                                    <div class="field__single">
-                                        <h3 class="fraunces italic title-lg fw-6">
-                                            <a href="our-services.html">Interior Design</a>
-                                        </h3>
-                                        <div class="field-thumb d-none d-md-block" data-background="assets/images/field/six.webp"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / field section end ==== -->
-            <!-- ==== counter section start ==== -->
-            <section class="counter pt-140 pb-140 bg-alt">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="counter__wrapper">
-                                <p class="cvv txt-light-6">/ Numbers Don't Lie</p>
-                                <div class="counter__inner">
-                                    <div class="counter__single">
-                                        <h2 class="title-lg fw-6">
-                                            <span class="odometer" data-odometer-final="34">0</span>
-                                            <span class="prefix">+</span>
-                                        </h2>
-                                        <p class="fraunces italic text-lg mt-8">Years of Experience</p>
-                                    </div>
-                                    <div class="counter__single">
-                                        <h2 class="title-lg fw-6">
-                                            <span class="odometer" data-odometer-final="86">0</span>
-                                        </h2>
-                                        <p class="fraunces italic text-lg mt-8">Awards</p>
-                                    </div>
-                                    <div class="counter__single">
-                                        <h2 class="title-lg fw-6">
-                                            <span class="odometer" data-odometer-final="254267">0</span>
-                                        </h2>
-                                        <p class="fraunces italic text-lg mt-8">Completed Projects</p>
-                                    </div>
-                                </div>
-                                <hr class="divider mt-60 mb-60">
-                                <div class="counter__inner-right">
-                                    <div class="counter__single">
-                                        <h2 class="title-lg fw-6">
-                                            <span class="odometer" data-odometer-final="32802">0</span>
-                                        </h2>
-                                        <p class="fraunces italic text-lg mt-8">Clients Served</p>
-                                    </div>
-                                    <div class="counter__single">
-                                        <h2 class="title-lg fw-6">
-                                            <span class="odometer" data-odometer-final="90">0</span>
-                                            <span class="prefix">%</span>
-                                        </h2>
-                                        <p class="fraunces italic text-lg mt-8">Clients Satisfaction</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== counter section end ==== -->
-            <!-- ==== concept section start ==== -->
-            <section class="concept template-bg">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-md-5 col-lg-5 col-xl-5">
-                            <div class="concept__content-wrapper pt-140 pb-140">
-                                <div class="concept__content-inner">
-                                    <div class="concept__content-left">
-                                        <p class="txt-light-6">/ Our Works</p>
-                                    </div>
-                                    <div class="concept__content-right">
-                                        <div class="concept__right-intro">
-                                            <h2 class="title-lg-sm title-animation fw-5 neutral-top">Creating concepts to final details — we bring dream home to life.</h2>
-                                            <div class="mt-20 concept__cta">
-                                                <a href="our-projects.html">
-                                                    Discover All
-                                                    <i class="ph-light ph-arrow-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="concept__right-list">
-                                            <ul>
-                                                <li class="text-xl">(1) The Coastal House</li>
-                                                <li class="text-xl">(2) Warren House</li>
-                                                <li class="text-xl">(3) Hargrave Terrace</li>
-                                                <li class="text-xl">(4) Riverview Avalone</li>
-                                            </ul>
-                                        </div>
-                                        <div class="concept-footer__inner">
-                                            <div class="concept__footer-wrapper">
-                                                <div class="concept__right-footer">
-                                                    <div class="concept__footer-intro">
-                                                        <p class="text-xxl fraunces italic">The Coastal House</p>
-                                                        <p class="mt-6 txt-light">Melbourne, Australia</p>
-                                                    </div>
-                                                    <div class="concept__footer-cta mt-30">
-                                                        <p class="text-sm txt-light">Date:</p>
-                                                        <p class="mt-8 txt-light">March 12, 2025</p>
-                                                    </div>
-                                                </div>
-                                                <div class="concept__right-footer">
-                                                    <div class="concept__footer-intro">
-                                                        <p class="text-xxl fraunces italic">Warren House</p>
-                                                        <p class="mt-6 txt-light">Toronto, Canada</p>
-                                                    </div>
-                                                    <div class="concept__footer-cta mt-30">
-                                                        <p class="text-sm txt-light">Date:</p>
-                                                        <p class="mt-8 txt-light">March 12, 2025</p>
-                                                    </div>
-                                                </div>
-                                                <div class="concept__right-footer">
-                                                    <div class="concept__footer-intro">
-                                                        <p class="text-xxl fraunces italic">Hargrave Terrace</p>
-                                                        <p class="mt-6 txt-light">London, United Kingdom</p>
-                                                    </div>
-                                                    <div class="concept__footer-cta mt-30">
-                                                        <p class="text-sm txt-light">Date:</p>
-                                                        <p class="mt-8 txt-light">March 12, 2025</p>
-                                                    </div>
-                                                </div>
-                                                <div class="concept__right-footer">
-                                                    <div class="concept__footer-intro">
-                                                        <p class="text-xxl fraunces italic">Riverview Avalone</p>
-                                                        <p class="mt-6 txt-light">New York, United States</p>
-                                                    </div>
-                                                    <div class="concept__footer-cta mt-30">
-                                                        <p class="text-sm txt-light">Date:</p>
-                                                        <p class="mt-8 txt-light">March 12, 2025</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-7 col-lg-7 col-xl-7">
-                            <div class="concept__thumbs">
-                                <div class="concept__thumb-wrapper">
-                                    <div class="concept__thumb-single">
-                                        <div class="thumb-lg">
-                                            <img src="assets/images/concept/thumb-lg.webp" alt="Image">
-                                        </div>
-                                        <div class="thumb-sm">
-                                            <div class="thumb-sm-wrapper">
-                                                <img src="assets/images/concept/thumb-sm.webp" alt="Image">
-                                                <a href="project-details.html">
-                                                    <i class="ph-light ph-arrow-up-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="concept__thumb-single">
-                                        <div class="thumb-lg">
-                                            <img src="assets/images/concept/thumb-lg.webp" alt="Image">
-                                        </div>
-                                        <div class="thumb-sm">
-                                            <div class="thumb-sm-wrapper">
-                                                <img src="assets/images/concept/thumb-sm-two.webp" alt="Image">
-                                                <a href="project-details.html">
-                                                    <i class="ph-light ph-arrow-up-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="concept__thumb-single">
-                                        <div class="thumb-lg">
-                                            <img src="assets/images/concept/thumb-lg.webp" alt="Image">
-                                        </div>
-                                        <div class="thumb-sm">
-                                            <div class="thumb-sm-wrapper">
-                                                <img src="assets/images/concept/thumb-sm-three.webp" alt="Image">
-                                                <a href="project-details.html">
-                                                    <i class="ph-light ph-arrow-up-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="concept__thumb-single">
-                                        <div class="thumb-lg">
-                                            <img src="assets/images/concept/thumb-lg.webp" alt="Image">
-                                        </div>
-                                        <div class="thumb-sm">
-                                            <div class="thumb-sm-wrapper">
-                                                <img src="assets/images/concept/thumb-sm-four.webp" alt="Image">
-                                                <a href="project-details.html">
-                                                    <i class="ph-light ph-arrow-up-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / concept section end ==== -->
-            <!-- ==== team section start ==== -->
-            <section class="team pt-140 pb-140 bg-alt">
-                <div class="container">
-                    <div class="row gutter-24 c-row">
-                        <div class="col-12 col-lg-4 col-xl-5">
-                            <div class="team__header">
-                                <div class="team__intro">
-                                    <p class="txt-light-6">/ Our Architects</p>
-                                </div>
-                                <h2 class="title-animation title-lg-sm fw-5 neutral-top">Team members</h2>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-5 col-xl-4">
-                            <div class="team__content">
-                                <p class="txt-light-6">Architectural design services provide for a variety of projects, from residential homes and commercial buildings to public spaces and infrastructure.</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-3 col-xl-3">
-                            <div class="team__cta">
-                                <a href="our-team.html" class="btn-quinary">
-                                    <span class="btn-animated-text" data-text="Team Members">Team Members</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container team-container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="team__inner">
-                                <div class="team__wrapper mt-80">
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/one.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Alina Paetsch</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>Interior Architecture</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/two.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Elina Krause</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>Web Developer</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/three.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Liana Berger</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>UI Designer</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/four.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Nadia Richter</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>Interior Architecture</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/one.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Alina Paetsch</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>Interior Architecture</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/two.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Elina Krause</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>Web Developer</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/three.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Liana Berger</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>UI Designer</p>
-                                        </div>
-                                    </div>
-                                    <div class="team__single">
-                                        <div class="team__thumb">
-                                            <img src="assets/images/team/four.webp" alt="Image">
-                                            <div class="team__name">
-                                                <h3 class="title-lg-sm fraunces italic">
-                                                    <a href="our-team.html">Nadia Richter</a>
-                                                </h3>
-                                            </div>
-                                        </div>
-                                        <div class="team__designation mt-20">
-                                            <p>Interior Architecture</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / team section end ==== -->
-            <!-- ==== transform section start ==== -->
-            <section class="transform pt-140 pb-140">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="transform__wrapper template-bg">
-                                <h2 class="title-lg-sm title-animation fw-5">Ready to Transform Your Space with Archinex?</h2>
-                                <div class="transform__cta">
-                                    <p class="txt-light">From concept to completion, we craft interiors that blend elegance, functionality, and individuality. Let's bring your vision to life.</p>
-                                    <div class="mt-40">
-                                        <a href="contact-us.html" class="btn-quaternary">
-                                            <span class="btn-animated-text" data-text="Book Consultation">Book Consultation</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <span class="line-cs"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="transform-bg">
-                    <img src="assets/images/transform-bg.webp" alt="Image" class="parallax-image">
-                </div>
-            </section>
-            <!-- ==== / transform section end ==== -->
-            <!-- ==== news section start ==== -->
-            <section class="news pt-140 pb-140 template-bg">
-                <div class="container-lg">
-                    <div class="row gutter-24">
-                        <div class="col-12 col-md-2">
-                            <div class="innews__intro">
-                                <p class="txt-light-6">/ Blogs</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-7">
-                            <div class="news__header">
-                                <h2 class="title-lg-sm title-animation fw-5 neutral-top">
-                                    Insights & Inspirations
-                                </h2>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-3">
-                            <div class="news__cta">
-                                <a href="news.html" class="btn-quinary">
-                                    <span class="btn-animated-text" data-text="Discover All">Discover All</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row gutter-24 mt-80">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="news__single">
-                                <div class="news__thumb">
-                                    <img src="assets/images/news/one.webp" alt="Image" class="parallax-image">
-                                    <div class="news__name">
-                                        <h3 class="title-lg-sm fraunces italic">
-                                            <a href="news.html">Details</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="news__content mt-20">
-                                    <div class="news__meta">
-                                        <span class="txt-light text-uppercase">MARCH 12, 2025</span>
-                                        <span class="divide-cs"></span>
-                                        <span class="txt-light text-uppercase">Improvement</span>
-                                    </div>
-                                    <h4 class="fw-5 title-xxs mt-8">
-                                        <a href="news-details.html">The Power of Natural Light in Architectural Design</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="news__single">
-                                <div class="news__thumb">
-                                    <img src="assets/images/news/two.webp" alt="Image" class="parallax-image">
-                                    <div class="news__name">
-                                        <h3 class="title-lg-sm fraunces italic">
-                                            <a href="news.html">Details</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="news__content mt-20">
-                                    <div class="news__meta">
-                                        <span class="txt-light text-uppercase">MARCH 12, 2025</span>
-                                        <span class="divide-cs"></span>
-                                        <span class="txt-light text-uppercase">Improvement</span>
-                                    </div>
-                                    <h4 class="fw-5 title-xxs mt-8">
-                                        <a href="news-details.html">Your Guide to Finding a Dream Home</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="news__single">
-                                <div class="news__thumb">
-                                    <img src="assets/images/news/three.webp" alt="Image" class="parallax-image">
-                                    <div class="news__name">
-                                        <h3 class="title-lg-sm fraunces italic">
-                                            <a href="news.html">Details</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="news__content mt-20">
-                                    <div class="news__meta">
-                                        <span class="txt-light text-uppercase">MARCH 12, 2025</span>
-                                        <span class="divide-cs"></span>
-                                        <span class="txt-light text-uppercase">Improvement</span>
-                                    </div>
-                                    <h4 class="fw-5 title-xxs mt-8">
-                                        <a href="news-details.html">Current State of the Real Estate Market</a>
-                                    </h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- ==== / news section end ==== -->
-            <!-- ==== instagram section start ==== -->
-            <div class="insta-feed pt-140 pb-140 bg-alt">
-                <div class="container-lg">
-                    <div class="row align-items-center">
-                        <div class="col-12 col-sm-5">
-                            <div class="insta-feed__profile">
-                                <p class="text-xxl fw-5 maison-neue">@archinex_studio</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-7">
-                            <div class="insta-feed__title">
-                                <p class="txt-light-6">Follow us on Instagram</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="insta-feed__inner mt-35">
-                                <div class="insta-feed__slider">
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/one.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/two.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/three.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/four.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="insta-feed__slider">
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/one.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/two.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/three.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                    <div class="insta-feed__single">
-                                        <img src="assets/images/instagram/four.webp" alt="Image">
-                                        <a href="index.html">
-                                            <i class="ph ph-instagram-logo"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- ==== / instagram section end ==== -->
-            <!-- ==== footer start ==== -->
-            <footer class="footer-two pt-140">
-                <div class="container-lg">
-                    <div class="row gutter-60">
-                        <div class="col-12 col-xl-3 col-xxl-4">
-                            <div class="footer-two__single fade-up">
-                                <div class="footer-two__newsletter">
-                                    <div class="footer-two__intro">
-                                        <div class="footer__logo lh-0">
-                                            <a href="index.html">
-                                                <img src="assets/images/logo-light.svg" alt="Image">
-                                            </a>
-                                        </div>
-                                        <p class="mt-20">
-                                            Reach out to us, and we'll get back to you!
-                                        </p>
-                                    </div>
-                                    <div class="footer__newsletter fade-up" data-delay="100">
-                                        <form action="#" method="post">
-                                            <div class="input-single mb-0">
-                                                <input
-                                                    type="email"
-                                                    name="newsletter-email"
-                                                    id="newsletterEmail"
-                                                    placeholder="Email"
-                                                    required
-                                                >
-                                                <button type="submit" aria-label="submit newsletter" title="submit newsletter">
-                                                    <i class="ph ph-arrow-right"></i>
-                                                </button>
-                                                <span class="underline"></span>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-xl-3 col-xxl-3">
-                            <div class="footer-two__single footer-two__list fade-up" data-delay="100">
-                                <span>Sitemap</span>
-                                <ul class="mt-40">
-                                    <li class="title-lg-sm">
-                                        <a href="index.html" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Home">Home</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="about-us.html" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Studio">Studio</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="our-services.html" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Services">Services</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="our-projects.html" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Projects">Projects</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="project-details.html" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Insights">Insights</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-xl-3 col-xxl-3">
-                            <div class="footer-two__single footer-two__list fade-up" data-delay="200">
-                                <span>Socials</span>
-                                <ul class="mt-40">
-                                    <li class="title-lg-sm">
-                                        <a href="https://www.instagram.com/" target="_blank" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Instagram">Instagram</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="https://x.com/" target="_blank" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Twitter">Twitter</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="https://www.linkedin.com/" target="_blank" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Linkedin">Linkedin</span>
-                                        </a>
-                                    </li>
-                                    <li class="title-lg-sm">
-                                        <a href="https://www.behance.net/" target="_blank" class="hover-line-bottom btn-light">
-                                            <span class="btn-animated-text" data-text="Behance">Behance</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 col-xl-3 col-xxl-2">
-                            <div class="footer-two__single fade-up" data-delay="300">
-                                <a href="mailto:studio@archinex.build" class="footer-two-cta">studio@archinex.build</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-two__bottom primary-bg mt-140">
-                    <div class="container-lg">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="footer-two__bottom-inner">
-                                    <div class="footer-two__bottom-inner__single">
-                                        <p class="mt-0">
-                                            &copy;
-                                            <span id="copyrightYear"></span>
-                                            <a href="index.html">Archinex Studio</a>
-                                        </p>
-                                    </div>
-                                    <div class="footer-two__bottom-inner__single">
-                                        <p>
-                                            <a
-                                                href="contact-us.html"
-                                                aria-label="privacy policy"
-                                                title="privacy policy"
-                                                class="hover-line-bottom-two"
-                                            >Privacy Policy</a>
-                                        </p>
-                                    </div>
-                                    <div class="footer-two__bottom-inner__single">
-                                        <p>Malmö, Sweden</p>
-                                    </div>
-                                    <div class="footer-two__bottom-inner__single">
-                                        <p>
-                                            <button class="back-to-top" aria-label="back to top" title="back to top">
-                                                Back to Top
-                                                <i class="ph ph-arrow-up"></i>
-                                            </button>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-            <!-- ==== / footer end ==== -->
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <!-- ==== custom cursor start ==== -->
-            <div class="mouseCursor cursor-outer"></div>
-            <div class="mouseCursor cursor-inner">
-                <span class="drag">
-                    drag
-                </span>
-                <span class="view">
-                    view
-                </span>
-                <span class="play">
-                    play
-                </span>
-            </div>
-            <!-- ==== / custom cursor end ==== -->
-            <!-- ==== scroll to top start ==== -->
-            <button class="progress-wrap" aria-label="scroll indicator" title="back to top">
-                <span></span>
-                <svg
-                    class="progress-circle svg-content"
-                    width="100%"
-                    height="100%"
-                    viewBox="-1 -1 102 102"
-                >
-                    <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-                </svg>
-            </button>
-            <!-- ==== / scroll to top end ==== -->
+    <![endif]-->
+    <div class="page-wrapper rtl">
+      <!-- ==== preloader start ==== -->
+      <div class="preloader">
+        <div class="preloader-inner">
+          <div class="preloader-logo">
+            <span>LOADING</span>
+          </div>
+          <div class="preloader-bar">
+            <div class="preloader-progress"></div>
+          </div>
+          <div class="preloader-count">0%</div>
         </div>
-        <!-- ==== js dependencies start ==== -->
-        <!-- jquery -->
-        <script src="assets/js/jquery-4.0.0.min.js"></script>
-        <!-- bootstrap five js -->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- nice select js -->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!-- magnific popup js -->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!-- swiper slider js -->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!-- viewport js -->
-        <script src="assets/js/viewport.jquery.js"></script>
-        <!-- odometer js -->
-        <script src="assets/js/odometer.min.js"></script>
-        <!-- vanilla tilt js -->
-        <script src="assets/js/vanilla-tilt.min.js"></script>
-        <!-- phospor icons js -->
-        <script src="assets/js/phosphor-icon.js"></script>
-        <!-- image loaded js -->
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <!-- isotope js -->
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <!-- animated headline js -->
-        <script src="assets/js/animated-headline.js"></script>
-        <!-- scrolltrigger js -->
-        <script src="assets/js/ScrollTrigger.min.js"></script>
-        <!-- splittext js -->
-        <script src="assets/js/SplitText.min.js"></script>
-        <!-- scrollto js -->
-        <script src="assets/js/ScrollToPlugin.min.js"></script>
-        <!-- lenis js -->
-        <script src="assets/js/lenis.min.js"></script>
-        <!-- gsap js -->
-        <script src="assets/js/gsap.min.js"></script>
-        <!-- three js -->
-        <script src="assets/js/three.js"></script>
-        <!-- hover effect js -->
-        <script src="assets/js/hover-effect.umd.js"></script>
-        <!-- ==== / js dependencies end ==== -->
-        <!-- main js -->
-        <script src="assets/js/main.js"></script>
-    </body>
+      </div>
+      <!-- ==== / preloader end ==== -->
+      <!-- ==== header start ==== -->
+      <header class="header header-two">
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-header__menu-box">
+                <nav class="navbar p-0">
+                  <div class="navbar-logo">
+                    <a href="index.html">
+                      <img
+                        src="assets/images/logo.svg"
+                        alt="Image"
+                        class="logo-ch"
+                      />
+                    </a>
+                  </div>
+                  <div class="navbar__menu-wrapper">
+                    <div class="brand-date d-none d-sm-block">
+                      <span>- Since 1994 -</span>
+                    </div>
+                    <div class="navbar__menu d-none d-xl-block">
+                      <ul class="navbar__list">
+                        <li
+                          class="navbar__item navbar__item--has-children d-none d-xl-block"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu mega-menu">
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-one.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index.html">Architecture Solution</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-two.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-two.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-two.html">Architecture Studio</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-three.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-three.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-three.html">Architecture Bureau</a>
+                            </li>
+                            <li>
+                              <div class="mega-content-wrapper">
+                                <img
+                                  src="assets/images/home-four.webp"
+                                  alt="Image"
+                                />
+                                <div class="mega-content">
+                                  <a href="index-four.html">View Demo</a>
+                                </div>
+                              </div>
+                              <a href="index-four.html">Interior Studio</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children d-block d-xl-none nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Home</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="index.html">Architecture Solution</a>
+                            </li>
+                            <li>
+                              <a href="index-two.html">Architecture Studio</a>
+                            </li>
+                            <li>
+                              <a href="index-three.html">Architecture Bureau</a>
+                            </li>
+                            <li>
+                              <a href="index-four.html">Interior Studio</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="navbar__item nav-fade">
+                          <a href="about-us.html">Studio</a>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Projects</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="our-projects.html">Portfolio</a>
+                            </li>
+                            <li>
+                              <a href="project-details.html"
+                                >Portfolio Details</a
+                              >
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="navbar__item navbar__item--has-children nav-fade"
+                        >
+                          <a
+                            href="#"
+                            class="navbar__dropdown-label dropdown-label-alter"
+                            >Pages</a
+                          >
+                          <ul class="navbar__sub-menu">
+                            <li>
+                              <a href="about-us.html">About</a>
+                            </li>
+                            <li>
+                              <a href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li>
+                              <a href="our-team.html">Our Team</a>
+                            </li>
+                            <li class="navbar__item navbar__item--has-children">
+                              <a
+                                href="#"
+                                class="navbar__dropdown-label navbar__dropdown-label-sub"
+                                >Services</a
+                              >
+                              <ul
+                                class="navbar__sub-menu navbar__sub-menu__nested"
+                              >
+                                <li>
+                                  <a href="our-services.html">Our Services</a>
+                                </li>
+                                <li>
+                                  <a href="service-details.html"
+                                    >Service Details</a
+                                  >
+                                </li>
+                              </ul>
+                            </li>
+                            <li class="navbar__item navbar__item--has-children">
+                              <a
+                                href="#"
+                                class="navbar__dropdown-label navbar__dropdown-label-sub"
+                                >News</a
+                              >
+                              <ul
+                                class="navbar__sub-menu navbar__sub-menu__nested"
+                              >
+                                <li>
+                                  <a href="news.html">News</a>
+                                </li>
+                                <li>
+                                  <a href="news-list.html">News List</a>
+                                </li>
+                                <li>
+                                  <a href="news-details.html">News Details</a>
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                              <a href="coming-soon.html">Coming Soon</a>
+                            </li>
+                            <li>
+                              <a href="404.html">Error</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="navbar__options">
+                      <div class="navbar__mobile-options d-none d-sm-block">
+                        <a href="contact-us.html"> Contact Us </a>
+                      </div>
+                      <button
+                        class="open-offcanvas-nav d-flex d-xl-none"
+                        aria-label="toggle mobile menu"
+                        title="open offcanvas menu"
+                      >
+                        <span class="icon-bar top-bar"></span>
+                        <span class="icon-bar middle-bar"></span>
+                        <span class="icon-bar bottom-bar"></span>
+                      </button>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- ==== / header end ==== -->
+      <!-- ==== mobile menu start ==== -->
+      <div class="mobile-menu d-block d-xxl-none" data-lenis-prevent>
+        <nav class="mobile-menu__wrapper">
+          <div class="mobile-menu__header nav-fade">
+            <div class="logo">
+              <a href="index.html" aria-label="home page" title="logo">
+                <img src="assets/images/logo.svg" alt="Image" class="logo-ch" />
+              </a>
+            </div>
+            <button aria-label="close mobile menu" class="close-mobile-menu">
+              <i class="ti ti-x"></i>
+            </button>
+          </div>
+          <div class="mobile-menu__list"></div>
+          <div class="mobile-menu__cta d-block d-md-none nav-fade">
+            <a href="contact-us.html" class="btn-primary">
+              <span class="btn-animated-text" data-text="Get In Touch"
+                >Get In Touch</span
+              >
+            </a>
+          </div>
+          <div class="mobile-menu__social social nav-fade">
+            <ul class="social">
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  aria-label="share us on linkedin"
+                  title="linkedin"
+                  class="hover-line-bottom-gray"
+                  >Linkedin</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  aria-label="share us on facebook"
+                  title="facebook"
+                  class="hover-line-bottom-gray"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  aria-label="share us on instagram"
+                  title="instagram"
+                  class="hover-line-bottom-gray"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile-menu__backdrop"></div>
+      <!-- ==== / mobile menu end ==== -->
+      <!-- ==== hero section start ==== -->
+      <section class="hero-two template-bg">
+        <div class="container-lg">
+          <div class="row gutter-20">
+            <div class="col-12 col-xl-2">
+              <div class="hero-two__intro">
+                <p class="text-sm text-uppercase txt-light fw-5">
+                  Creating timeless residence in Sweden
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-xl-9">
+              <div class="hero-two__content">
+                <div class="hero__heading neutral-top">
+                  <h2 class="title-lg fw-5 inter cd-headline clip">
+                    Archinex
+                    <br />
+                    visionary
+                    <span class="fraunces italic fw-5 cfc dr">/</span>
+                    <span class="cd-words-wrapper fraunces italic cfc fw-5">
+                      <i class="is-visible fw-5">inspiring</i>
+                      <i class="app fw-5">motivated</i>
+                      <i class="fw-5">passion</i>
+                    </span>
+                    <br />
+                    architecture studio.
+                  </h2>
+                </div>
+                <div class="hero-two__thumb mt-80">
+                  <img
+                    src="assets/images/hero-two-thumb.webp"
+                    alt="Image"
+                    class="flip-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-two__cta-wrapper d-none d-xl-flex">
+          <div class="hero-two__lang">
+            <button>EN</button>
+            <span class="divider-c">/</span>
+            <button>SE</button>
+          </div>
+          <div class="hero-two__cta">
+            <a href="our-projects.html">
+              <span>Discover Projects</span>
+              <img src="assets/images/lg-arrow.webp" alt="Image" />
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / hero section end ==== -->
+      <!-- ==== about section start ==== -->
+      <section class="about-two pt-140 pb-140 scale-wrapper">
+        <div class="container">
+          <div class="row gutter-24">
+            <div class="col-12 col-md-3">
+              <p class="txt-light-4">/ About Studio</p>
+            </div>
+            <div class="col-12 col-md-9">
+              <div class="about-two__intro">
+                <h2
+                  class="title-animation title-lg-sm text-end fw-5 text-white"
+                >
+                  Since 1996
+                </h2>
+                <h2 class="title-animation title-lg-sm fw-5 text-white">
+                  Building new standards of excellence.
+                </h2>
+                <p class="mt-40 txt-light-4 title-animation">
+                  We craft sleek, timeless architectural experience that blend
+                  innovation, functionality, and aesthetics. From concept to
+                  execution, we bring visions to life with precision and
+                  creative architectural designs.
+                </p>
+                <div class="mt-60">
+                  <a href="about-us.html" class="btn-light-2">
+                    <span class="btn-animated-text" data-text="About Archinex"
+                      >About Archinex</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-lg">
+          <div class="row align-items-end">
+            <div class="col-12 col-lg-6">
+              <div class="about-two__thumb-lg-wrapper">
+                <div
+                  class="thumb-lg scale-up hover-image"
+                  data-displacement="assets/images/fluid.webp"
+                  data-intensity="0.2"
+                  data-speedin="1"
+                  data-speedout="1"
+                >
+                  <img
+                    src="assets/images/about/one.webp"
+                    alt="Image"
+                    class="flip-img"
+                  />
+                </div>
+                <div class="thumb-lg-content mt-140">
+                  <h3 class="title-lg-sm title-animation fw-5 text-white">
+                    Archinex builds Houses — Buildings everyone would like to
+                    live in.
+                  </h3>
+                  <p class="txt-light-4 title-animation mt-40">
+                    We take visionary approach to sales and marketing of real
+                    estate development, delivering exceptional result. Our deep
+                    knowledge - access to cutting edge research set us apart in
+                    the industry.
+                  </p>
+                  <div class="mt-60 fade-up">
+                    <a href="contact-us.html" class="btn-quaternary">
+                      <span class="btn-animated-text" data-text="Get In Touch"
+                        >Get In Touch</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="about-two__thumb-sm-wrapper">
+                <div
+                  class="thumb-sm scale-up hover-image"
+                  data-displacement="assets/images/fluid.webp"
+                  data-intensity="0.2"
+                  data-speedin="1"
+                  data-speedout="1"
+                >
+                  <img
+                    src="assets/images/about/two.webp"
+                    alt="Image"
+                    class="flip-img"
+                  />
+                </div>
+                <div
+                  class="thumb-sm-two mt-30 text-center scale-up hover-image"
+                  data-displacement="assets/images/fluid.webp"
+                  data-intensity="0.2"
+                  data-speedin="1"
+                  data-speedout="1"
+                >
+                  <img
+                    src="assets/images/about/three.webp"
+                    alt="Image"
+                    class="flip-img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lines-cr">
+          <div class="line-cr"></div>
+          <div class="line-cr"></div>
+          <div class="line-cr"></div>
+          <div class="line-cr"></div>
+          <div class="line-cr"></div>
+          <div class="line-cr"></div>
+        </div>
+      </section>
+      <!-- ==== / about section end ==== -->
+      <!-- ==== partner section start ==== -->
+      <div class="partner-two template-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="partner__inner">
+                <div class="partner__slider">
+                  <div class="partner__single">
+                    <img src="assets/images/partners/one.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/two.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/three.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/four.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/five.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/six.webp" alt="Image" />
+                  </div>
+                </div>
+                <div class="partner__slider">
+                  <div class="partner__single">
+                    <img src="assets/images/partners/one.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/two.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/three.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/four.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/five.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/six.webp" alt="Image" />
+                  </div>
+                </div>
+                <div class="partner__slider">
+                  <div class="partner__single">
+                    <img src="assets/images/partners/one.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/two.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/three.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/four.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/five.webp" alt="Image" />
+                  </div>
+                  <div class="partner__single">
+                    <img src="assets/images/partners/six.webp" alt="Image" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== / partner section end ==== -->
+      <!-- ==== service section start ==== -->
+      <section class="service-two pt-140 pb-140 template-bg scale-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-7 col-lg-6">
+              <div class="service-two__header mb-80">
+                <p class="txt-light-6">/ Our Services</p>
+                <h2 class="title-lg-sm title-animation fw-5 mt-30">
+                  From blends design vision with purpose, creating vibrant
+                  spaces.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-lg">
+          <div class="row">
+            <div class="col-12">
+              <div class="cvrt mb-30">
+                <p class="txt-light-6">Ready to get started?</p>
+              </div>
+            </div>
+          </div>
+          <div class="row gutter-40">
+            <div class="col-12 col-lg-6">
+              <div class="service-two__content">
+                <div class="service-two__content-single scale-up active">
+                  <div class="service-two__content-single-wrapper">
+                    <div class="service-two__left">
+                      <span class="cr-number fraunces italic fw-5">(01)</span>
+                    </div>
+                    <div class="service-two__right">
+                      <div class="service-two__single-intro">
+                        <div class="at-wrapper">
+                          <p class="text-xxl fw-5 masion-neue">
+                            <a href="service-details.html"
+                              >Interior design expertise</a
+                            >
+                          </p>
+                          <a href="service-details.html">
+                            <i class="ph-light ph-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="service-two__single-content">
+                        <p class="txt-light-6">
+                          Architectural design services provide for a variety of
+                          projects, from residential homes and commercial
+                          buildings to public spaces and infrastructure.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-two__content-single scale-up">
+                  <div class="service-two__content-single-wrapper">
+                    <div class="service-two__left">
+                      <span class="cr-number fraunces italic fw-5">(02)</span>
+                    </div>
+                    <div class="service-two__right">
+                      <div class="service-two__single-intro">
+                        <div class="at-wrapper">
+                          <p class="text-xxl fw-5 masion-neue">
+                            <a href="service-details.html"
+                              >Architectural design solutions</a
+                            >
+                          </p>
+                          <a href="service-details.html">
+                            <i class="ph-light ph-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="service-two__single-content">
+                        <p class="txt-light-6">
+                          Interior design services enhance spaces with creative
+                          solutions, from modern apartments and offices to
+                          retail stores and hospitality environments.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-two__content-single scale-up">
+                  <div class="service-two__content-single-wrapper">
+                    <div class="service-two__left">
+                      <span class="cr-number fraunces italic fw-5">(03)</span>
+                    </div>
+                    <div class="service-two__right">
+                      <div class="service-two__single-intro">
+                        <div class="at-wrapper">
+                          <p class="text-xxl fw-5 masion-neue">
+                            <a href="service-details.html"
+                              >Sustainable design insight</a
+                            >
+                          </p>
+                          <a href="service-details.html">
+                            <i class="ph-light ph-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="service-two__single-content">
+                        <p class="txt-light-6">
+                          Engineering consulting services support diverse
+                          developments, from structural planning and urban
+                          systems to transportation networks and industrial
+                          facilities.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-two__content-single scale-up">
+                  <div class="service-two__content-single-wrapper">
+                    <div class="service-two__left">
+                      <span class="cr-number fraunces italic fw-5">(04)</span>
+                    </div>
+                    <div class="service-two__right">
+                      <div class="service-two__single-intro">
+                        <div class="at-wrapper">
+                          <p class="text-xxl fw-5 masion-neue">
+                            <a href="service-details.html"
+                              >Landscape renovation</a
+                            >
+                          </p>
+                          <a href="service-details.html">
+                            <i class="ph-light ph-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="service-two__single-content">
+                        <p class="txt-light-6">
+                          Construction management services oversee projects
+                          efficiently, from small renovations and housing units
+                          to large-scale commercial and infrastructure works.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-two__content-single scale-up">
+                  <div class="service-two__content-single-wrapper">
+                    <div class="service-two__left">
+                      <span class="cr-number fraunces italic fw-5">(05)</span>
+                    </div>
+                    <div class="service-two__right">
+                      <div class="service-two__single-intro">
+                        <div class="at-wrapper">
+                          <p class="text-xxl fw-5 masion-neue">
+                            <a href="service-details.html"
+                              >Projects management</a
+                            >
+                          </p>
+                          <a href="service-details.html">
+                            <i class="ph-light ph-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="service-two__single-content">
+                        <p class="txt-light-6">
+                          Landscape design services transform outdoor
+                          environments, from private gardens and parks to public
+                          plazas and sustainable green spaces.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-two__content-single scale-up">
+                  <div class="service-two__content-single-wrapper">
+                    <div class="service-two__left">
+                      <span class="cr-number fraunces italic fw-5">(06)</span>
+                    </div>
+                    <div class="service-two__right">
+                      <div class="service-two__single-intro">
+                        <div class="at-wrapper">
+                          <p class="text-xxl fw-5 masion-neue">
+                            <a href="service-details.html"
+                              >Urban housing solutions</a
+                            >
+                          </p>
+                          <a href="service-details.html">
+                            <i class="ph-light ph-arrow-circle-right"></i>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="service-two__single-content">
+                        <p class="txt-light-6">
+                          Urban planning services guide city development
+                          strategically, from neighborhood layouts and zoning
+                          plans to smart cities and large infrastructure
+                          projects.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-100 service-two__cta">
+                  <a href="our-services.html" class="btn-quaternary">
+                    <span class="btn-animated-text" data-text="Explore Services"
+                      >Explore Services</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="service-two__thumb-wrapper fade-up">
+                <div class="service-two__thumbs">
+                  <div
+                    class="service-two__thumb-single active hover-image"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/services/service-thumb-two.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                  <div
+                    class="service-two__thumb-single hover-image"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/services/service-thumb-three.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                  <div
+                    class="service-two__thumb-single hover-image"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/services/service-thumb-four.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                  <div
+                    class="service-two__thumb-single hover-image"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/services/service-thumb-five.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                  <div
+                    class="service-two__thumb-single hover-image"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/services/service-thumb-six.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                  <div
+                    class="service-two__thumb-single hover-image"
+                    data-displacement="assets/images/fluid.webp"
+                    data-intensity="0.2"
+                    data-speedin="1"
+                    data-speedout="1"
+                  >
+                    <img
+                      src="assets/images/services/service-thumb-seven.webp"
+                      alt="Image"
+                      class="flip-img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / service section end ==== -->
+      <!-- ==== field section start ==== -->
+      <section class="field pt-140 pb-140 bg-alt">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="field__wrapper">
+                <div class="field__inner">
+                  <div class="field__single">
+                    <h3 class="fraunces italic title-lg fw-6">
+                      <a href="our-services.html">Residential</a>
+                    </h3>
+                    <div
+                      class="field-thumb d-none d-md-block"
+                      data-background="assets/images/field/one.webp"
+                    ></div>
+                  </div>
+                  <span class="divide-cs"></span>
+                  <div class="field__single">
+                    <h3 class="fraunces italic title-lg fw-6">
+                      <a href="our-services.html">Innovative</a>
+                    </h3>
+                    <div
+                      class="field-thumb d-none d-md-block"
+                      data-background="assets/images/field/two.webp"
+                    ></div>
+                  </div>
+                  <span class="divide-cs"></span>
+                  <div class="field__single">
+                    <h3 class="fraunces italic title-lg fw-6">
+                      <a href="our-services.html">Exterior</a>
+                    </h3>
+                    <div
+                      class="field-thumb d-none d-md-block"
+                      data-background="assets/images/field/three.webp"
+                    ></div>
+                  </div>
+                  <span class="divide-cs"></span>
+                  <div class="field__single">
+                    <h3 class="fraunces italic title-lg fw-6">
+                      <a href="our-services.html">Structural Craft</a>
+                    </h3>
+                    <div
+                      class="field-thumb d-none d-md-block"
+                      data-background="assets/images/field/four.webp"
+                    ></div>
+                  </div>
+                  <span class="divide-cs"></span>
+                  <div class="field__single">
+                    <h3 class="fraunces italic title-lg fw-6">
+                      <a href="our-services.html">Urban</a>
+                    </h3>
+                    <div
+                      class="field-thumb d-none d-md-block"
+                      data-background="assets/images/field/five.webp"
+                    ></div>
+                  </div>
+                  <span class="divide-cs"></span>
+                  <div class="field__single">
+                    <h3 class="fraunces italic title-lg fw-6">
+                      <a href="our-services.html">Interior Design</a>
+                    </h3>
+                    <div
+                      class="field-thumb d-none d-md-block"
+                      data-background="assets/images/field/six.webp"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / field section end ==== -->
+      <!-- ==== counter section start ==== -->
+      <section class="counter pt-140 pb-140 bg-alt">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="counter__wrapper">
+                <p class="cvv txt-light-6">/ Numbers Don't Lie</p>
+                <div class="counter__inner">
+                  <div class="counter__single">
+                    <h2 class="title-lg fw-6">
+                      <span class="odometer" data-odometer-final="34">0</span>
+                      <span class="prefix">+</span>
+                    </h2>
+                    <p class="fraunces italic text-lg mt-8">
+                      Years of Experience
+                    </p>
+                  </div>
+                  <div class="counter__single">
+                    <h2 class="title-lg fw-6">
+                      <span class="odometer" data-odometer-final="86">0</span>
+                    </h2>
+                    <p class="fraunces italic text-lg mt-8">Awards</p>
+                  </div>
+                  <div class="counter__single">
+                    <h2 class="title-lg fw-6">
+                      <span class="odometer" data-odometer-final="254267"
+                        >0</span
+                      >
+                    </h2>
+                    <p class="fraunces italic text-lg mt-8">
+                      Completed Projects
+                    </p>
+                  </div>
+                </div>
+                <hr class="divider mt-60 mb-60" />
+                <div class="counter__inner-right">
+                  <div class="counter__single">
+                    <h2 class="title-lg fw-6">
+                      <span class="odometer" data-odometer-final="32802"
+                        >0</span
+                      >
+                    </h2>
+                    <p class="fraunces italic text-lg mt-8">Clients Served</p>
+                  </div>
+                  <div class="counter__single">
+                    <h2 class="title-lg fw-6">
+                      <span class="odometer" data-odometer-final="90">0</span>
+                      <span class="prefix">%</span>
+                    </h2>
+                    <p class="fraunces italic text-lg mt-8">
+                      Clients Satisfaction
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== counter section end ==== -->
+      <!-- ==== concept section start ==== -->
+      <section class="concept template-bg">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-md-5 col-lg-5 col-xl-5">
+              <div class="concept__content-wrapper pt-140 pb-140">
+                <div class="concept__content-inner">
+                  <div class="concept__content-left">
+                    <p class="txt-light-6">/ Our Works</p>
+                  </div>
+                  <div class="concept__content-right">
+                    <div class="concept__right-intro">
+                      <h2 class="title-lg-sm title-animation fw-5 neutral-top">
+                        Creating concepts to final details — we bring dream home
+                        to life.
+                      </h2>
+                      <div class="mt-20 concept__cta">
+                        <a href="our-projects.html">
+                          Discover All
+                          <i class="ph-light ph-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="concept__right-list">
+                      <ul>
+                        <li class="text-xl">(1) The Coastal House</li>
+                        <li class="text-xl">(2) Warren House</li>
+                        <li class="text-xl">(3) Hargrave Terrace</li>
+                        <li class="text-xl">(4) Riverview Avalone</li>
+                      </ul>
+                    </div>
+                    <div class="concept-footer__inner">
+                      <div class="concept__footer-wrapper">
+                        <div class="concept__right-footer">
+                          <div class="concept__footer-intro">
+                            <p class="text-xxl fraunces italic">
+                              The Coastal House
+                            </p>
+                            <p class="mt-6 txt-light">Melbourne, Australia</p>
+                          </div>
+                          <div class="concept__footer-cta mt-30">
+                            <p class="text-sm txt-light">Date:</p>
+                            <p class="mt-8 txt-light">March 12, 2025</p>
+                          </div>
+                        </div>
+                        <div class="concept__right-footer">
+                          <div class="concept__footer-intro">
+                            <p class="text-xxl fraunces italic">Warren House</p>
+                            <p class="mt-6 txt-light">Toronto, Canada</p>
+                          </div>
+                          <div class="concept__footer-cta mt-30">
+                            <p class="text-sm txt-light">Date:</p>
+                            <p class="mt-8 txt-light">March 12, 2025</p>
+                          </div>
+                        </div>
+                        <div class="concept__right-footer">
+                          <div class="concept__footer-intro">
+                            <p class="text-xxl fraunces italic">
+                              Hargrave Terrace
+                            </p>
+                            <p class="mt-6 txt-light">London, United Kingdom</p>
+                          </div>
+                          <div class="concept__footer-cta mt-30">
+                            <p class="text-sm txt-light">Date:</p>
+                            <p class="mt-8 txt-light">March 12, 2025</p>
+                          </div>
+                        </div>
+                        <div class="concept__right-footer">
+                          <div class="concept__footer-intro">
+                            <p class="text-xxl fraunces italic">
+                              Riverview Avalone
+                            </p>
+                            <p class="mt-6 txt-light">
+                              New York, United States
+                            </p>
+                          </div>
+                          <div class="concept__footer-cta mt-30">
+                            <p class="text-sm txt-light">Date:</p>
+                            <p class="mt-8 txt-light">March 12, 2025</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-7 col-xl-7">
+              <div class="concept__thumbs">
+                <div class="concept__thumb-wrapper">
+                  <div class="concept__thumb-single">
+                    <div class="thumb-lg">
+                      <img
+                        src="assets/images/concept/thumb-lg.webp"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="thumb-sm">
+                      <div class="thumb-sm-wrapper">
+                        <img
+                          src="assets/images/concept/thumb-sm.webp"
+                          alt="Image"
+                        />
+                        <a href="project-details.html">
+                          <i class="ph-light ph-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="concept__thumb-single">
+                    <div class="thumb-lg">
+                      <img
+                        src="assets/images/concept/thumb-lg.webp"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="thumb-sm">
+                      <div class="thumb-sm-wrapper">
+                        <img
+                          src="assets/images/concept/thumb-sm-two.webp"
+                          alt="Image"
+                        />
+                        <a href="project-details.html">
+                          <i class="ph-light ph-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="concept__thumb-single">
+                    <div class="thumb-lg">
+                      <img
+                        src="assets/images/concept/thumb-lg.webp"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="thumb-sm">
+                      <div class="thumb-sm-wrapper">
+                        <img
+                          src="assets/images/concept/thumb-sm-three.webp"
+                          alt="Image"
+                        />
+                        <a href="project-details.html">
+                          <i class="ph-light ph-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="concept__thumb-single">
+                    <div class="thumb-lg">
+                      <img
+                        src="assets/images/concept/thumb-lg.webp"
+                        alt="Image"
+                      />
+                    </div>
+                    <div class="thumb-sm">
+                      <div class="thumb-sm-wrapper">
+                        <img
+                          src="assets/images/concept/thumb-sm-four.webp"
+                          alt="Image"
+                        />
+                        <a href="project-details.html">
+                          <i class="ph-light ph-arrow-up-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / concept section end ==== -->
+      <!-- ==== team section start ==== -->
+      <section class="team pt-140 pb-140 bg-alt">
+        <div class="container">
+          <div class="row gutter-24 c-row">
+            <div class="col-12 col-lg-4 col-xl-5">
+              <div class="team__header">
+                <div class="team__intro">
+                  <p class="txt-light-6">/ Our Architects</p>
+                </div>
+                <h2 class="title-animation title-lg-sm fw-5 neutral-top">
+                  Team members
+                </h2>
+              </div>
+            </div>
+            <div class="col-12 col-lg-5 col-xl-4">
+              <div class="team__content">
+                <p class="txt-light-6">
+                  Architectural design services provide for a variety of
+                  projects, from residential homes and commercial buildings to
+                  public spaces and infrastructure.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 col-xl-3">
+              <div class="team__cta">
+                <a href="our-team.html" class="btn-quinary">
+                  <span class="btn-animated-text" data-text="Team Members"
+                    >Team Members</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container team-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="team__inner">
+                <div class="team__wrapper mt-80">
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/one.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Alina Paetsch</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>Interior Architecture</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/two.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Elina Krause</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>Web Developer</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/three.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Liana Berger</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>UI Designer</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/four.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Nadia Richter</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>Interior Architecture</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/one.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Alina Paetsch</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>Interior Architecture</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/two.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Elina Krause</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>Web Developer</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/three.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Liana Berger</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>UI Designer</p>
+                    </div>
+                  </div>
+                  <div class="team__single">
+                    <div class="team__thumb">
+                      <img src="assets/images/team/four.webp" alt="Image" />
+                      <div class="team__name">
+                        <h3 class="title-lg-sm fraunces italic">
+                          <a href="our-team.html">Nadia Richter</a>
+                        </h3>
+                      </div>
+                    </div>
+                    <div class="team__designation mt-20">
+                      <p>Interior Architecture</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / team section end ==== -->
+      <!-- ==== transform section start ==== -->
+      <section class="transform pt-140 pb-140">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="transform__wrapper template-bg">
+                <h2 class="title-lg-sm title-animation fw-5">
+                  Ready to Transform Your Space with Archinex?
+                </h2>
+                <div class="transform__cta">
+                  <p class="txt-light">
+                    From concept to completion, we craft interiors that blend
+                    elegance, functionality, and individuality. Let's bring your
+                    vision to life.
+                  </p>
+                  <div class="mt-40">
+                    <a href="contact-us.html" class="btn-quaternary">
+                      <span
+                        class="btn-animated-text"
+                        data-text="Book Consultation"
+                        >Book Consultation</span
+                      >
+                    </a>
+                  </div>
+                </div>
+                <span class="line-cs"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="transform-bg">
+          <img
+            src="assets/images/transform-bg.webp"
+            alt="Image"
+            class="parallax-image"
+          />
+        </div>
+      </section>
+      <!-- ==== / transform section end ==== -->
+      <!-- ==== news section start ==== -->
+      <section class="news pt-140 pb-140 template-bg">
+        <div class="container-lg">
+          <div class="row gutter-24">
+            <div class="col-12 col-md-2">
+              <div class="innews__intro">
+                <p class="txt-light-6">/ Blogs</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-7">
+              <div class="news__header">
+                <h2 class="title-lg-sm title-animation fw-5 neutral-top">
+                  Insights & Inspirations
+                </h2>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <div class="news__cta">
+                <a href="news.html" class="btn-quinary">
+                  <span class="btn-animated-text" data-text="Discover All"
+                    >Discover All</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row gutter-24 mt-80">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="news__single">
+                <div class="news__thumb">
+                  <img
+                    src="assets/images/news/one.webp"
+                    alt="Image"
+                    class="parallax-image"
+                  />
+                  <div class="news__name">
+                    <h3 class="title-lg-sm fraunces italic">
+                      <a href="news.html">Details</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="news__content mt-20">
+                  <div class="news__meta">
+                    <span class="txt-light text-uppercase">MARCH 12, 2025</span>
+                    <span class="divide-cs"></span>
+                    <span class="txt-light text-uppercase">Improvement</span>
+                  </div>
+                  <h4 class="fw-5 title-xxs mt-8">
+                    <a href="news-details.html"
+                      >The Power of Natural Light in Architectural Design</a
+                    >
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="news__single">
+                <div class="news__thumb">
+                  <img
+                    src="assets/images/news/two.webp"
+                    alt="Image"
+                    class="parallax-image"
+                  />
+                  <div class="news__name">
+                    <h3 class="title-lg-sm fraunces italic">
+                      <a href="news.html">Details</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="news__content mt-20">
+                  <div class="news__meta">
+                    <span class="txt-light text-uppercase">MARCH 12, 2025</span>
+                    <span class="divide-cs"></span>
+                    <span class="txt-light text-uppercase">Improvement</span>
+                  </div>
+                  <h4 class="fw-5 title-xxs mt-8">
+                    <a href="news-details.html"
+                      >Your Guide to Finding a Dream Home</a
+                    >
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="news__single">
+                <div class="news__thumb">
+                  <img
+                    src="assets/images/news/three.webp"
+                    alt="Image"
+                    class="parallax-image"
+                  />
+                  <div class="news__name">
+                    <h3 class="title-lg-sm fraunces italic">
+                      <a href="news.html">Details</a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="news__content mt-20">
+                  <div class="news__meta">
+                    <span class="txt-light text-uppercase">MARCH 12, 2025</span>
+                    <span class="divide-cs"></span>
+                    <span class="txt-light text-uppercase">Improvement</span>
+                  </div>
+                  <h4 class="fw-5 title-xxs mt-8">
+                    <a href="news-details.html"
+                      >Current State of the Real Estate Market</a
+                    >
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ==== / news section end ==== -->
+      <!-- ==== instagram section start ==== -->
+      <div class="insta-feed pt-140 pb-140 bg-alt">
+        <div class="container-lg">
+          <div class="row align-items-center">
+            <div class="col-12 col-sm-5">
+              <div class="insta-feed__profile">
+                <p class="text-xxl fw-5 maison-neue">@archinex_studio</p>
+              </div>
+            </div>
+            <div class="col-12 col-sm-7">
+              <div class="insta-feed__title">
+                <p class="txt-light-6">Follow us on Instagram</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="insta-feed__inner mt-35">
+                <div class="insta-feed__slider">
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/one.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/two.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/three.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/four.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="insta-feed__slider">
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/one.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/two.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/three.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                  <div class="insta-feed__single">
+                    <img src="assets/images/instagram/four.webp" alt="Image" />
+                    <a href="index.html">
+                      <i class="ph ph-instagram-logo"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== / instagram section end ==== -->
+      <!-- ==== footer start ==== -->
+      <footer class="footer-two pt-140">
+        <div class="container-lg">
+          <div class="row gutter-60">
+            <div class="col-12 col-xl-3 col-xxl-4">
+              <div class="footer-two__single fade-up">
+                <div class="footer-two__newsletter">
+                  <div class="footer-two__intro">
+                    <div class="footer__logo lh-0">
+                      <a href="index.html">
+                        <img src="assets/images/logo-light.svg" alt="Image" />
+                      </a>
+                    </div>
+                    <p class="mt-20">
+                      Reach out to us, and we'll get back to you!
+                    </p>
+                  </div>
+                  <div class="footer__newsletter fade-up" data-delay="100">
+                    <form action="#" method="post">
+                      <div class="input-single mb-0">
+                        <input
+                          type="email"
+                          name="newsletter-email"
+                          id="newsletterEmail"
+                          placeholder="Email"
+                          required
+                        />
+                        <button
+                          type="submit"
+                          aria-label="submit newsletter"
+                          title="submit newsletter"
+                        >
+                          <i class="ph ph-arrow-right"></i>
+                        </button>
+                        <span class="underline"></span>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-xl-3 col-xxl-3">
+              <div
+                class="footer-two__single footer-two__list fade-up"
+                data-delay="100"
+              >
+                <span>Sitemap</span>
+                <ul class="mt-40">
+                  <li class="title-lg-sm">
+                    <a href="index.html" class="hover-line-bottom btn-light">
+                      <span class="btn-animated-text" data-text="Home"
+                        >Home</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a href="about-us.html" class="hover-line-bottom btn-light">
+                      <span class="btn-animated-text" data-text="Studio"
+                        >Studio</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a
+                      href="our-services.html"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Services"
+                        >Services</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a
+                      href="our-projects.html"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Projects"
+                        >Projects</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a
+                      href="project-details.html"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Insights"
+                        >Insights</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-xl-3 col-xxl-3">
+              <div
+                class="footer-two__single footer-two__list fade-up"
+                data-delay="200"
+              >
+                <span>Socials</span>
+                <ul class="mt-40">
+                  <li class="title-lg-sm">
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Instagram"
+                        >Instagram</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a
+                      href="https://x.com/"
+                      target="_blank"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Twitter"
+                        >Twitter</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a
+                      href="https://www.linkedin.com/"
+                      target="_blank"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Linkedin"
+                        >Linkedin</span
+                      >
+                    </a>
+                  </li>
+                  <li class="title-lg-sm">
+                    <a
+                      href="https://www.behance.net/"
+                      target="_blank"
+                      class="hover-line-bottom btn-light"
+                    >
+                      <span class="btn-animated-text" data-text="Behance"
+                        >Behance</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 col-xl-3 col-xxl-2">
+              <div class="footer-two__single fade-up" data-delay="300">
+                <a href="mailto:studio@archinex.build" class="footer-two-cta"
+                  >studio@archinex.build</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-two__bottom primary-bg mt-140">
+          <div class="container-lg">
+            <div class="row">
+              <div class="col-12">
+                <div class="footer-two__bottom-inner">
+                  <div class="footer-two__bottom-inner__single">
+                    <p class="mt-0">
+                      &copy;
+                      <span id="copyrightYear"></span>
+                      <a href="index.html">Archinex Studio</a>
+                    </p>
+                  </div>
+                  <div class="footer-two__bottom-inner__single">
+                    <p>
+                      <a
+                        href="contact-us.html"
+                        aria-label="privacy policy"
+                        title="privacy policy"
+                        class="hover-line-bottom-two"
+                        >Privacy Policy</a
+                      >
+                    </p>
+                  </div>
+                  <div class="footer-two__bottom-inner__single">
+                    <p>Malmö, Sweden</p>
+                  </div>
+                  <div class="footer-two__bottom-inner__single">
+                    <p>
+                      <button
+                        class="back-to-top"
+                        aria-label="back to top"
+                        title="back to top"
+                      >
+                        Back to Top
+                        <i class="ph ph-arrow-up"></i>
+                      </button>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ==== / footer end ==== -->
+      <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <!-- ==== custom cursor start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner">
+        <span class="drag"> drag </span>
+        <span class="view"> view </span>
+        <span class="play"> play </span>
+      </div>
+      <!-- ==== / custom cursor end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button
+        class="progress-wrap"
+        aria-label="scroll indicator"
+        title="back to top"
+      >
+        <span></span>
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+    </div>
+    <!-- ==== js dependencies start ==== -->
+    <!-- jquery -->
+    <script src="assets/js/jquery-4.0.0.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- swiper slider js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- vanilla tilt js -->
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <!-- phospor icons js -->
+    <script src="assets/js/phosphor-icon.js"></script>
+    <!-- image loaded js -->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- isotope js -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- animated headline js -->
+    <script src="assets/js/animated-headline.js"></script>
+    <!-- scrolltrigger js -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- splittext js -->
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- scrollto js -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- lenis js -->
+    <script src="assets/js/lenis.min.js"></script>
+    <!-- gsap js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- three js -->
+    <script src="assets/js/three.js"></script>
+    <!-- hover effect js -->
+    <script src="assets/js/hover-effect.umd.js"></script>
+    <!-- ==== / js dependencies end ==== -->
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

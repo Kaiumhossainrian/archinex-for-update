@@ -175,14 +175,6 @@
         opacity: 0;
     }
 
-    &:hover {
-        .icon {
-            img {
-                filter: brightness(0) saturate(100%) invert(44%) sepia(87%) saturate(4599%) hue-rotate(341deg) brightness(118%) contrast(102%);
-            }
-        }
-    }
-
     .content {
         flex-grow: 1;
     }
