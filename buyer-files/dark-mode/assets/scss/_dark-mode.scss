@@ -5,8 +5,8 @@
 .dark-mode {
   --template-bg: #141416;
   --template-color: #fdfafa;
-  --senary-color: #443939;
-  --border-color: #443939;
+  --senary-color: #1f2023;
+  --border-color: #1f2023;
   --txt-light: #c9beb3;
   --txt-light-3: #c4bfb9;
 
@@ -99,7 +99,7 @@
   }
 
   .sticky-header {
-    border-bottom: 1px solid #443939;
+    border-bottom: 1px solid #1f2023;
   }
 
   .mobile-menu {
@@ -110,18 +110,18 @@
     .navbar__list {
       > li {
         &:nth-of-type(2) {
-          border-top: 1px solid #443939;
+          border-top: 1px solid #1f2023;
         }
 
         a,
         button {
-          border-bottom: 1px solid #443939;
+          border-bottom: 1px solid #1f2023;
         }
       }
     }
 
     .navbar__item--has-children .navbar__dropdown-label::after {
-      border-inline-start: 1px solid #443939;
+      border-inline-start: 1px solid #1f2023;
     }
   }
 
@@ -147,7 +147,7 @@
   }
 
   .testimonial {
-    background-color: #443939;
+    background-color: #1f2023;
   }
 
   .testimonial .slider-btn {
@@ -269,11 +269,11 @@
   }
 
   .bg-alt {
-    background-color: #443939;
+    background-color: #1f2023;
   }
 
   .bg-alt-2 {
-    background-color: #4b4444;
+    background-color: #1f2023;
   }
 
   .concept__cta a {
@@ -281,10 +281,10 @@
   }
 
   .counter {
-    background-color: #443939;
+    background-color: #1f2023;
 
     .cvv {
-      background-color: #443939;
+      background-color: #1f2023;
     }
   }
 
@@ -435,6 +435,24 @@
       img {
         filter: brightness(0) saturate(100%) invert(100%) sepia(19%)
           saturate(2267%) hue-rotate(173deg) brightness(103%) contrast(77%);
+      }
+    }
+  }
+
+  .project-slider__box {
+    .project-slider__cta {
+      a {
+        img {
+          filter: brightness(0) saturate(100%) invert(100%) sepia(19%)
+            saturate(2267%) hue-rotate(173deg) brightness(103%) contrast(77%);
+        }
+
+        &:hover {
+          img {
+            filter: brightness(0) saturate(100%) invert(51%) sepia(65%)
+              saturate(349%) hue-rotate(351deg) brightness(95%) contrast(89%);
+          }
+        }
       }
     }
   }
